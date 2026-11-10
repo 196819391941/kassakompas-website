@@ -1,0 +1,29 @@
+{
+  "status": "All three previously missing content images supplied and stored as supplementary files. Exact version-31 source remains unchanged.",
+  "restoration_mapping": {
+    "horeca.html: shop.emerchantauthority.com A77 image": "external-images/A77_10_802615c1-9bdc-4ff4-8383-b6f2cce90d18.webp",
+    "koppelingen.html: Zoete-Kruimels-Instapkassa.webp": "external-images/Zoete-Kruimels-Instapkassa (1).webp",
+    "koppelingen.html: horeca-reserveringssysteem-tafels.webp": "external-images/horeca-reserveringssysteem-tafels (1).webp"
+  },
+  "note": "A77 supplied as WebP; original reference used JPG. Visual match checked, remote byte equality not asserted. No site edits or deployments. Source retains external links; use this mapping when restoring independently. Old dependency inventory describes state before these files were supplied. Sites platform widgets are not product content and may still use external resources.",
+  "files": [
+    {
+      "file": "A77_10_802615c1-9bdc-4ff4-8383-b6f2cce90d18.webp",
+      "sha256": "6d937bd01227f11f45dc5b823479632451a498f1aa9270603895519871a7f6d2",
+      "bytes": 41938,
+      "provenance": "User-supplied archive; original extracted bytes preserved"
+    },
+    {
+      "file": "Zoete-Kruimels-Instapkassa (1).webp",
+      "sha256": "67d2272413407a56490f300e7577bbe537da487eb02b6f7cf2b35a75b924f32e",
+      "bytes": 48756,
+      "provenance": "User-supplied archive; original extracted bytes preserved"
+    },
+    {
+      "file": "horeca-reserveringssysteem-tafels (1).webp",
+      "sha256": "300c1b94e7cfc59b4c902841a3688cb88c26c9ebb7cdf00e26e3093e39139788",
+      "bytes": 72222,
+      "provenance": "User-supplied archive; original extracted bytes preserved"
+    }
+  ]
+}
