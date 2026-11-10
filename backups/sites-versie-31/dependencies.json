@@ -1,0 +1,168 @@
+{
+  "checked_date": "2026-11-10",
+  "note": "Original references preserved; no replacements. External content image downloads blocked with HTTP 403.",
+  "references": [
+    {
+      "page": "dist/horeca.html",
+      "element": "img",
+      "url": "assets/horeca-kassasoftware-tablet-mobiel.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca.html",
+      "element": "img",
+      "url": "https://shop.emerchantauthority.com/cdn/shop/products/A77_10_802615c1-9bdc-4ff4-8383-b6f2cce90d18.jpg?v=1637760261",
+      "external": true
+    },
+    {
+      "page": "dist/horeca.html",
+      "element": "iframe",
+      "url": "./Horeca kassasysteem vanaf \u20ac 39_maand excl. btw _ KassaKompas_files/saved_resource.html",
+      "external": false
+    },
+    {
+      "page": "dist/horeca.html",
+      "element": "img",
+      "url": "https://kassakompas-model.bluishcity.chatgpt.site/_sites/dispatch-assets/app-openai.svg",
+      "external": true
+    },
+    {
+      "page": "dist/koppelingen.html",
+      "element": "img",
+      "url": "assets/koppelingen-bar-keukenschermen.webp",
+      "external": false
+    },
+    {
+      "page": "dist/koppelingen.html",
+      "element": "img",
+      "url": "https://cdn-craftcms.dish.co/Nederland/Contentafbeeldingen/_squareBig/7464/Zoete-Kruimels-Instapkassa.webp",
+      "external": true
+    },
+    {
+      "page": "dist/koppelingen.html",
+      "element": "img",
+      "url": "https://cdn-craftcms.dish.co/Nederland/Contentafbeeldingen/_squareBig/8019/horeca-reserveringssysteem-tafels.webp",
+      "external": true
+    },
+    {
+      "page": "dist/retail.html",
+      "element": "img",
+      "url": "assets/vectron-pos-8.webp",
+      "external": false
+    },
+    {
+      "page": "dist/retail.html",
+      "element": "img",
+      "url": "https://kassakompas-model.bluishcity.chatgpt.site/_sites/dispatch-assets/app-openai.svg",
+      "external": true
+    },
+    {
+      "page": "dist/index.html",
+      "element": "img",
+      "url": "assets/chapeau-ijscreme.png",
+      "external": false
+    },
+    {
+      "page": "dist/index.html",
+      "element": "img",
+      "url": "assets/dish-kassa-2.png?v=origineel",
+      "external": false
+    },
+    {
+      "page": "dist/index.html",
+      "element": "img",
+      "url": "assets/orderman7_0.png",
+      "external": false
+    },
+    {
+      "page": "dist/index.html",
+      "element": "img",
+      "url": "https://kassakompas-model.bluishcity.chatgpt.site/_sites/dispatch-assets/app-openai.svg",
+      "external": true
+    },
+    {
+      "page": "dist/horeca/fastfood/index.html",
+      "element": "img",
+      "url": "/assets/fastfood-frieten-burger.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/fastfood/index.html",
+      "element": "img",
+      "url": "/assets/fastfood-touchscreen-menu.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/fastfood/index.html",
+      "element": "img",
+      "url": "/assets/fastfood-kassa-toonbank.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/hotels/index.html",
+      "element": "img",
+      "url": "/assets/hotels-lobby-digitaal.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/hotels/index.html",
+      "element": "img",
+      "url": "/assets/hotels-entree.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/hotels/index.html",
+      "element": "img",
+      "url": "/assets/hotels-rapportering.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/koffiebars/index.html",
+      "element": "img",
+      "url": "/assets/koffiebar-touchscreen-kassa.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/koffiebars/index.html",
+      "element": "img",
+      "url": "/assets/koffiebar-interieur-toonbank.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/bars-clubs/index.html",
+      "element": "img",
+      "url": "/assets/bars-clubs-sfeer.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/bars-clubs/index.html",
+      "element": "img",
+      "url": "/assets/bars-kassatoestellen.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/restaurants/index.html",
+      "element": "img",
+      "url": "/assets/restaurants-tafelbediening.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/restaurants/index.html",
+      "element": "img",
+      "url": "/assets/restaurants-mobiele-bestelling.webp",
+      "external": false
+    },
+    {
+      "page": "dist/horeca/restaurants/index.html",
+      "element": "img",
+      "url": "/assets/restaurants-keukenbeheer.webp",
+      "external": false
+    },
+    {
+      "page": "dist/proef/snelheid-handheld/index.html",
+      "element": "img",
+      "url": "/assets/orderman7_0.png",
+      "external": false
+    }
+  ]
+}

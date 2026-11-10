@@ -1,0 +1,33 @@
+{
+  "reference_url": "https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/#top",
+  "project_id": "appgprj_6af048855740819188b7a138cea7a2d8",
+  "version_number": 31,
+  "version_id": "appgprj_6af048855740819188b7a138cea7a2d8~appgver_ba2b44837994819190681e4c196c143e",
+  "deployment_id": "appgdep_6af20cbe630081918ec1a0e00965119c",
+  "deployment_status": "succeeded",
+  "sites_source_commit": "d75bfa405c880535e6b3c0e2122a6ac2c45622b2",
+  "source_tree_sha": "02e4ef107c4d93fd3bdbef109a1c836db36eb5ee",
+  "existing_github_main_at_backup_start": "3c7c94e3644ddc5b852e446773e85a56be9c1e73",
+  "backup_branch": "backup/kassakompas-sites-v31-2026-11-10",
+  "verification": {
+    "sites_api_version_deployment_url_match": true,
+    "fresh_source_repository_fetch_matches_published_commit": true,
+    "all_35_source_files_match_git_commit": true,
+    "all_34_publication_files_match_source": true,
+    "external_content_images_copied": false,
+    "live_direct_http_retrieval": "blocked: HTTP 403",
+    "offline_self_contained": false
+  },
+  "native_archive_storage": {
+    "sediment_file_id": "file_00000000d3cc8210962dfe76fa20b5e6",
+    "content_hash": "sha256:1437ba454d70de6b446db2de07e51a4ff0535653513d4f119f355efe62e01233",
+    "size_bytes": 4290560,
+    "file_count": 34,
+    "direct_download": "not authorized/resolved by download tool"
+  },
+  "local_publication_archive": {
+    "file_name": "kassakompas-homepage-preview.tar.gz",
+    "sha256": "d21ba994b1b307ebc339214ed1445a8d7699f7538e055dd880250da660f8da5f",
+    "note": "Archive container differs from server repackaging; every member file verified byte-identical to source commit."
+  }
+}
