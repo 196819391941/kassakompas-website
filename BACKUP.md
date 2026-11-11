@@ -1,10 +1,14 @@
-# KassaKompas — volledige back-up liveversie 57
+# KassaKompas — volledige back-up liveversie 58
 
 Datum: 11 november 2026
-Broncommit: 915b03af2893c5b35653293b1ad58d992c191cd4
-Geslaagde publicatie: appgdep_6af4b5e963d881918e6ff30e401390e7
+Broncommit: b08d06f6abd3cddb367df13ae7be2800f13576d6
+Geslaagde publicatie: appgdep_6af4b8002aa481918998c38a043d15b7
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Vierde kolom Huur bundel toegevoegd: volledige kassa plus software, €70,00 per maand bij jaarbetaling (€840,00 ineens), of €85,00 bij maandbetaling, excl. btw. Alle aangeleverde eigenschappen opgenomen. Vier hardwareregels vanaf Touchscreen Kassa zijn vetter. Jaarlijks blijft de standaard. Extra schermen worden alleen bij de losse softwarepakketten berekend; voor huuruitbreidingen zijn geen tarieven verzonnen.
+De Huur bundel rekent extra schermen mee zoals de andere pakketten: €10,00 per maand per extra scherm bij jaarbetaling, of €11,50 bij maandbetaling. Voor 2 schermen: €80,00 per maand jaarlijks (€960,00 per jaar) of €96,50 per maand maandelijks. Jaarlijks blijft standaard.
 
-Alle 25 pagina’s op lokale links en navigatie gecontroleerd. Browsercontroles op 1440 en 390 px: geen horizontale overloop, vier kolommen/pakketten, juiste huur- en softwaretarieven, jaartotalen, extra schermen, ondergrens, contactcontext en vetgedrukte hardware gecontroleerd. Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen; controlehashes in BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.
+Rechts op de prijspagina staan opvallende knoppen Demo aanvragen en Info aanvragen. Ze openen het bestaande contactformulier in een modaal zijpaneel; aanvraagtype, betaalperiode en aantal schermen gaan mee. Op mobiel staan de acties onderaan. De zelfstandige contactpagina blijft intact. De bestaande e-mailconceptwerkwijze is behouden.
+
+Browsercontroles geslaagd bij 1440, 1024 en 390 px: berekeningen en totalen, twee aanvragen, paneel openen/sluiten, Escape en focusherstel, onderwerpcontext, behouden invoer bij heropenen, normale contactweergave en geen horizontale overloop of JavaScript-fouten.
+
+Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.

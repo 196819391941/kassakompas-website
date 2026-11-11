@@ -22,3 +22,9 @@ Het pakket Horeca is toegevoegd op basis van de twee nieuwe PNG-bijlagen. Het be
 ## Huur bundel
 
 Op verzoek toegevoegd als vierde kolom: €70,00 per maand bij jaarbetaling (€840,00 ineens), of €85,00 bij maandbetaling, excl. btw. Eén volledige kassaopstelling met software, touchscreenkassa, barcodescanner, bonprinter en geldlade. Hardware is iets vetter gedrukt. De schermcalculator geldt voor de drie losse softwarepakketten; de huurbundel blijft één complete opstelling zonder onbevestigde toeslagen voor extra hardware.
+
+## Aanpassing extra schermen en aanvraagpaneel
+
+Op expliciet verzoek rekent de Huur bundel nu dezelfde schermtoeslag mee: €10,00 per maand bij jaarbetaling of €11,50 bij maandbetaling. Voor 2 schermen: €80,00/maand jaarlijks (€960,00 per jaar) of €96,50/maand maandelijks. De inbegrepen hardware blijft één complete set; extra hardware is niet als inbegrepen voorgesteld.
+
+De prijspagina heeft opvallende knoppen rechts voor Demo aanvragen en Info aanvragen. Ze openen een modaal zijpaneel met het bestaande contactformulier via een compacte weergave van /contact/. Het onderwerp bevat aanvraagtype, betaalperiode en aantal schermen. Op mobiel staan beide acties onderaan. Sluiten via knop, Escape of achtergrond; focus keert terug. De bestaande contactpagina blijft zelfstandig bruikbaar. Formulier blijft de bestaande ingevulde-e-mailwerkwijze gebruiken.
