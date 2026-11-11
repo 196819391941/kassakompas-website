@@ -1,12 +1,10 @@
-# KassaKompas — volledige back-up publicatie 70
+# KassaKompas — volledige back-up publicatie 71
 
 Datum: 12 november 2026 (Europe/Paris)
-Broncommit: dd0debb9a028da87fea9197fe827693cc78866c0
-Geslaagde publicatie: appgdep_6af4f611d04881918505808f93bdf7b9
+Broncommit: 957922a3f29cdea9e23cb60478d66fef7b5dac5b
+Geslaagde publicatie: appgdep_6af4f86f0ee88191b8a9c1363a68ad27
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Onderaan exact het bovenste kassatoestel met identieke scherminterface hergebruikt als één gelijkmatig geschaalde groep op de toonbank. Geen hand/persoon. Contactschaduw onder de voet. Bovenste toestelgroep byte voor byte behouden.
+Alleen de schaduw onder de onderste kassavoet versterkt: donkere contactrand, halfzachte schaduw en bredere zachte uitloop. Toestel, scherm, positie, overige inhoud en zichtbaarheid behouden. Desktop en mobiel gecontroleerd op schaduwweergave, overflow en JavaScript-fouten.
 
-Desktop en mobiel gecontroleerd: identieke toestelbron en scherminterface, geladen afbeeldingen, jaarlijks standaard, werkende contactlade en geen horizontale overflow of JavaScript-fouten.
-
-Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest voor alle bronbestanden. GitHub-hoofdbranch en zichtbaarheid (publiek, revisie 2) behouden. Back-up na push via verse clone te controleren.
+Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest voor alle bronbestanden. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Back-up na push via verse clone te controleren.
