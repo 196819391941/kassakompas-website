@@ -1,12 +1,12 @@
-# KassaKompas — volledige back-up liveversie 66
+# KassaKompas — volledige back-up publicatie 67
 
 Datum: 11 november 2026
-Broncommit: bca0adab99786ec372d46a9644611649177fce2a
-Geslaagde publicatie: appgdep_6af4e98b9bc88191bf339bf50f7750a0
+Broncommit: 3e6400583dd6c29315b2c836369cfdb11867896a
+Geslaagde publicatie: appgdep_6af4ea92bf948191a19b37d28bae771a
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Kassa-indeling aangepast met hoofdknoppen links en bovenaan, geïnspireerd op het eerder aangeleverde HAPOS-voorbeeld, met eigen KassaKompas-branding. Zestien productfotovakjes behouden. Beide nieuwe hardwarebeelden hebben een lichte commerciële helling. De bovenste kassa blijft transparant. De vinger in de onderste scène raakt het smoothie-fotovakje in het scherm; een geclipte voorgrondlaag houdt de hand natuurlijk boven de native vectorinterface. Geen offertefoto of klantnaam gepubliceerd.
+Uitsluitend de prijspagina is op expliciet verzoek exact teruggezet naar de voorlaatste versie: liveversie 65, broncommit 36593c76d501f6a4391e800c48972d1be3b9eee2. De HTML en alle drie gebruikte beeldassets zijn byte voor byte tegen die commit gecontroleerd. Geen verdere wijzigingen aan de pagina. De nieuwe publicatie heeft nummer 67; de inhoud van de prijspagina is exact versie 65. Overige pagina’s en zichtbaarheid behouden.
 
-Browsercontroles op 1440 px bij DPR 1 en 2 en 390 px bij DPR 2 geslaagd: hoofdknoppen, zestien fotovakjes per scherm, handlaag, perspectief, transparantie, prijsberekening en contactpaneel. Samengestelde beelden visueel beoordeeld op schermranden, uitsneden en aanraking. Geen overloop of JavaScript-fouten.
+SHA-256 prijspagina: a38dd78b09ffcffc870264cc0c9a208efc8cf16e22396e28a8466e960aaa9c55
 
-Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.
+Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. GitHub-hoofdbranch behouden.
