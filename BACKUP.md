@@ -1,10 +1,10 @@
-# KassaKompas — volledige back-up liveversie 56
+# KassaKompas — volledige back-up liveversie 57
 
 Datum: 11 november 2026
-Broncommit: 8831daf5820fee1d83a78d6f7d6c8a9e3bfe1aee
-Geslaagde publicatie: appgdep_6af4b38075d88191b7f85ef57d0317ed
+Broncommit: 915b03af2893c5b35653293b1ad58d992c191cd4
+Geslaagde publicatie: appgdep_6af4b5e963d881918e6ff30e401390e7
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-In elk van de drie prijspakketten staat Ga aan de slag met Kassasoft Payments vetgedrukt als eerste regel. Onder de bestaande functies zijn alle tien door de gebruiker opgegeven eigenschappen toegevoegd, eindigend met Gratis Support. Desktop en mobiel gecontroleerd: juiste volgorde en vetdruk, geen overloop, jaarlijks blijft de standaardkeuze. Tarieven zijn behouden.
+Vierde kolom Huur bundel toegevoegd: volledige kassa plus software, €70,00 per maand bij jaarbetaling (€840,00 ineens), of €85,00 bij maandbetaling, excl. btw. Alle aangeleverde eigenschappen opgenomen. Vier hardwareregels vanaf Touchscreen Kassa zijn vetter. Jaarlijks blijft de standaard. Extra schermen worden alleen bij de losse softwarepakketten berekend; voor huuruitbreidingen zijn geen tarieven verzonnen.
 
-Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.
+Alle 25 pagina’s op lokale links en navigatie gecontroleerd. Browsercontroles op 1440 en 390 px: geen horizontale overloop, vier kolommen/pakketten, juiste huur- en softwaretarieven, jaartotalen, extra schermen, ondergrens, contactcontext en vetgedrukte hardware gecontroleerd. Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen; controlehashes in BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.

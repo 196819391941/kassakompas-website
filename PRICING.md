@@ -18,3 +18,7 @@ De prijzen betreffen softwareabonnementen. Hardware, installatie en providerkost
 De bestaande hoofdnavigatie heeft op verzoek een extra item Prijzen. De blauwe Contact-knop blijft intact. Pakketknoppen verwijzen naar Contact met pakket, betaalperiode en aantal schermen als onderwerp.
 
 Het pakket Horeca is toegevoegd op basis van de twee nieuwe PNG-bijlagen. Het bevat alles van Standaard plus tafelplan met tafelstatus, tafelbeheer, gangen, menu’s en klantnamen. Jaarbedrag voor één scherm: €468,00 excl. btw. Dezelfde periode- en schermkeuze rekent alle drie pakketten om.
+
+## Huur bundel
+
+Op verzoek toegevoegd als vierde kolom: €70,00 per maand bij jaarbetaling (€840,00 ineens), of €85,00 bij maandbetaling, excl. btw. Eén volledige kassaopstelling met software, touchscreenkassa, barcodescanner, bonprinter en geldlade. Hardware is iets vetter gedrukt. De schermcalculator geldt voor de drie losse softwarepakketten; de huurbundel blijft één complete opstelling zonder onbevestigde toeslagen voor extra hardware.
