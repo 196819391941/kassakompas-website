@@ -1,11 +1,8 @@
-# KassaKompas — volledige back-up liveversie 52
+# KassaKompas — volledige back-up liveversie 53
 
 Datum: 11 november 2026
-Broncommit: 9cf1cbe37465f2cfb203c3b71a7eef79c9181c17
-Geslaagde publicatie: appgdep_6af4972679fc8191ad87469d89784e2c
-Sites-versie: appgprj_6af048855740819188b7a138cea7a2d8~appgver_154c161eba7c8191b07068d693cff2e3
+Broncommit: 83a15951b6842c8753820a6de96be64e5c4c42cf
+Geslaagde publicatie: appgdep_6af49836554c8191b169e1db01f15a4b
 Website: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/contact/
 
-Alle bronbestanden, assets en hostingconfiguratie zijn exact gekopieerd; controlehashes staan in BACKUP-SHA256.json. Geen tijdelijke binnenkort-meldingen op de contactpagina. Contactknoppen in de hoofdnavigatie zijn consequent blauw met witte tekst. Formulier valideert en opent een ingevulde e-mail; de bezoeker verstuurt die zelf. Er is geen automatische verzenddienst gekoppeld. Zie CONTACT-ACTIVATION.md.
-
-Alle 24 HTML-pagina’s gecontroleerd in Chromium op 1440 en 390 px: blauwe contactknoppen en geen horizontale overloop. Formuliervalidatie, onderwerpcontext, conceptactie en behoud van invoer gecontroleerd. Zichtbaarheid en GitHub-hoofdbranch behouden.
+De contactpagina toont bij het adres de bestaande foto van het bedrijfsgebouw met KassaKompas-belettering, in plaats van de kantoorruimte. Beide responsive varianten bestaan; de volledige afbeelding blijft zichtbaar met de juiste beeldverhouding en beschrijvende alternatieve tekst. Alle bronbestanden, pagina’s, assets en hostingconfiguratie zijn exact overgenomen. Controlehashes staan in BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.
