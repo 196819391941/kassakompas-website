@@ -1,10 +1,10 @@
-# KassaKompas — volledige back-up publicatie 72
+# KassaKompas — volledige back-up publicatie 73
 
 Datum: 12 november 2026 (Europe/Paris)
-Broncommit: 75f6022d427a13d90bc37d3d5c8043c2454a7e68
-Geslaagde publicatie: appgdep_6af4f90c2534819184a5c30ded41d7b9
+Broncommit: 5e76c65855c4f9eb396a043fbecc865953e240c8
+Geslaagde publicatie: appgdep_6af4fc9948f881918dfc07a002bd3d20
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Achtergrondtoonbank vervangen: achterrand en houtnerf lopen diagonaal in de richting van het kassaperspectief. Bestaand toestel en scherm exact behouden, zonder persoon; versterkte contactschaduw uit versie 71 behouden. Gebruiker heeft deze compositie goedgekeurd. Desktop en mobiel gecontroleerd op geladen afbeeldingen, overflow en JavaScript-fouten.
+Subtiele correctie van de blauwe schermbalk in beide identieke kassaschermen: bronhoogte verloopt van 84 naar 76 pixels in plaats van constant 80. Rechter opschrift 2 bronpixels omhoog. Toestel, schermprojectie, toonbank, schaduw en overige inhoud behouden.
 
-Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest voor alle bronbestanden. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Back-up na push via verse clone te controleren.
+Desktop en mobiel gecontroleerd: identieke scherminterfaces, geen overflow of JavaScript-fouten. Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest voor alle bronbestanden. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Back-up na push via verse clone te controleren.
