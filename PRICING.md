@@ -28,3 +28,11 @@ Op verzoek toegevoegd als vierde kolom: €70,00 per maand bij jaarbetaling (€
 Op expliciet verzoek rekent de Huur bundel nu dezelfde schermtoeslag mee: €10,00 per maand bij jaarbetaling of €11,50 bij maandbetaling. Voor 2 schermen: €80,00/maand jaarlijks (€960,00 per jaar) of €96,50/maand maandelijks. De inbegrepen hardware blijft één complete set; extra hardware is niet als inbegrepen voorgesteld.
 
 De prijspagina heeft opvallende knoppen rechts voor Demo aanvragen en Info aanvragen. Ze openen een modaal zijpaneel met het bestaande contactformulier via een compacte weergave van /contact/. Het onderwerp bevat aanvraagtype, betaalperiode en aantal schermen. Op mobiel staan beide acties onderaan. Sluiten via knop, Escape of achtergrond; focus keert terug. De bestaande contactpagina blijft zelfstandig bruikbaar. Formulier blijft de bestaande ingevulde-e-mailwerkwijze gebruiken.
+
+## Eenmalige aankoop — horeca én retail
+
+Op verzoek een vijfde kolom en een prominent blok bovenaan naast vanaf €19/maand: €2.495,00 eenmalig excl. btw, vaste prijs voor horeca en retail. Inbegrepen: POS Falcon 11-inch touchscreenkassa, Epson TM 88-bonprinter, automatische geldlade, lifetime kassamodulelicentie, installatie/instructie en bij de horecamodule de FDM 2.0-blackbox. Lifetime kassamodulelicentie is vetter. Geen klantnaam, offertenaam of foto uit de offerte gepubliceerd.
+
+De bijlage telt €2.471: POS 806 + FDM 230 + printer 350 + geldlade 90 + licentie 500 + installatie/instructie 495. Voor de gevraagde pakketprijs €2.495 is de interne POS-toerekening met €24 verhoogd naar €830; overige bedragen behouden. De website toont uitsluitend de vaste pakketprijs.
+
+Extra garantie lifetime / blackboxverzekering: +€10,00 per maand bij de horecamodule, apart van de eenmalige aankoop. Support 24/7 uitsluitend in regie, zoals opgegeven in de offerte. De aankoopkolom is onafhankelijk van de software-schermcalculator en betaalperiode; inbegrepen is één complete opstelling.

@@ -1,14 +1,12 @@
-# KassaKompas — volledige back-up liveversie 58
+# KassaKompas — volledige back-up liveversie 59
 
 Datum: 11 november 2026
-Broncommit: b08d06f6abd3cddb367df13ae7be2800f13576d6
-Geslaagde publicatie: appgdep_6af4b8002aa481918998c38a043d15b7
+Broncommit: f1a4e2e7106e9353d3f67db18c48368a32988007
+Geslaagde publicatie: appgdep_6af4db467a308191bb92feac675fc01d
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-De Huur bundel rekent extra schermen mee zoals de andere pakketten: €10,00 per maand per extra scherm bij jaarbetaling, of €11,50 bij maandbetaling. Voor 2 schermen: €80,00 per maand jaarlijks (€960,00 per jaar) of €96,50 per maand maandelijks. Jaarlijks blijft standaard.
+Vijfde kolom Eenmalige aankoop: €2.495,00 excl. btw, voor horeca én retail, hardware met lifetime kassamodulelicentie en installatie/instructie. Lifetime licentie vetter vermeld. FDM 2.0-blackbox bij horecamodule; blackboxverzekering / extra garantie lifetime +€10,00 per maand als aparte toeslag. Support 24/7 uitsluitend in regie. Ook bovenaan een opvallend aankoopblok naast software vanaf €19/maand. Geen klantnaam of offertefoto gepubliceerd.
 
-Rechts op de prijspagina staan opvallende knoppen Demo aanvragen en Info aanvragen. Ze openen het bestaande contactformulier in een modaal zijpaneel; aanvraagtype, betaalperiode en aantal schermen gaan mee. Op mobiel staan de acties onderaan. De zelfstandige contactpagina blijft intact. De bestaande e-mailconceptwerkwijze is behouden.
-
-Browsercontroles geslaagd bij 1440, 1024 en 390 px: berekeningen en totalen, twee aanvragen, paneel openen/sluiten, Escape en focusherstel, onderwerpcontext, behouden invoer bij heropenen, normale contactweergave en geen horizontale overloop of JavaScript-fouten.
+Browsercontroles geslaagd op 1920, 1440, 1024 en 390 px: vijf pakketten, prominent aankoopblok, vaste aankoopprijs onafhankelijk van periode/schermen, vetdruk lifetime, afzonderlijke voorwaardelijke toeslag, bestaande calculators, jaarbetaling als standaard en werkende contactdrawer. Geen horizontale overloop of JavaScript-fouten.
 
 Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.
