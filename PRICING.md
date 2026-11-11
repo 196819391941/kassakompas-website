@@ -50,3 +50,11 @@ Na verdere feedback over gekartelde kleurgrenzen zijn beide eerdere schermfotoâ€
 De interface wordt nu als native SVG-overlay in de website weergegeven. Blauw-witte vlakken, tekst, productillustraties en de groene Afrekenen-knop zijn daardoor schaalbaar en niet afhankelijk van gerasterde gegenereerde UI-details. De interface toont KassaKompas, Horeca, Directe verkoop en producten voor horeca en retail. De afbeelding blijft als illustratieve opstelling aangeduid. De interface is visueel en niet interactief; de omschrijvende aria-labels blijven beschikbaar.
 
 Controles: beide hardwarebeelden geladen, SVG-overlays zichtbaar met juiste inhoud, transparante hero, geen overloop, prijsomschakeling en aanvraagpaneel werken op 1440 px bij DPR 1 en 2 en op 390 px bij DPR 2. Screenshots van beide samengestelde beelden visueel beoordeeld op scherpte en aansluiting van de schermvlakken.
+
+## Perspectief en fotografische productvakjes
+
+Op verzoek zijn beide beelden opnieuw schuin in perspectief gezet, zoals de eerdere favoriete versie. Nieuwe gegenereerde hardwarebeelden met leeg scherm: bovenaan transparant, onderaan op een toonbank met een hand bij het scherm. De native SVG-interface wordt via een perspectieftransformatie op de vier schermhoeken geplaatst en schaalt mee via ResizeObserver.
+
+De getekende productillustraties zijn vervangen door zestien fotorealistische productbeelden in een raster van 4Ã—4. Elke uitsnede is afzonderlijk geclipt om buurbeelden te vermijden. De fotografie is illustratief gegenereerd; tekst, kleurvlakken, branding en Afrekenen blijven native vectorelementen. Horeca en Directe verkoop zijn zichtbaar.
+
+Browsercontroles op 1440 px (DPR 1 en 2) en 390 px (DPR 2): twee correct geladen hardwarebeelden, zestien fotovakjes per scherm, perspectieftransformaties en responsive schaling, transparante hero, prijsberekening en aanvraagpaneel gecontroleerd. Samengestelde beelden visueel gecontroleerd op uitlijning en uitsneden.
