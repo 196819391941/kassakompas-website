@@ -36,3 +36,9 @@ Op verzoek een vijfde kolom en een prominent blok bovenaan naast vanaf €19/maa
 De bijlage telt €2.471: POS 806 + FDM 230 + printer 350 + geldlade 90 + licentie 500 + installatie/instructie 495. Voor de gevraagde pakketprijs €2.495 is de interne POS-toerekening met €24 verhoogd naar €830; overige bedragen behouden. De website toont uitsluitend de vaste pakketprijs.
 
 Extra garantie lifetime / blackboxverzekering: +€10,00 per maand bij de horecamodule, apart van de eenmalige aankoop. Support 24/7 uitsluitend in regie, zoals opgegeven in de offerte. De aankoopkolom is onafhankelijk van de software-schermcalculator en betaalperiode; inbegrepen is één complete opstelling.
+
+## Uitlijning en vrijstaand kassabeeld
+
+De vijf kaarten gebruiken gedeelde gridrijen (CSS subgrid) voor rubriek, pakkettitel, omschrijving, hoofdprijs, betaalinformatie, licentieaantal, functies en actieknop. Zo staan Basis en de andere pakkettitels op dezelfde hoogte en blijven hoofdprijzen en scheidingslijnen gelijk na prijsomschakeling, schermwijziging en responsive herindeling.
+
+Het bovenste kassabeeld is vervangen door een transparante, gegenereerde variant op basis van het oorspronkelijke toestel en de onderste gebruiksfoto. Het toont KassaKompas-branding met Horeca en Directe verkoop, productfoto’s en Afrekenen. Geen achtergrondscène; het onderste bestaande gebruiksbeeld is behouden. Dit is een illustratieve schermindeling.

@@ -1,12 +1,12 @@
-# KassaKompas — volledige back-up liveversie 59
+# KassaKompas — volledige back-up liveversie 60
 
 Datum: 11 november 2026
-Broncommit: f1a4e2e7106e9353d3f67db18c48368a32988007
-Geslaagde publicatie: appgdep_6af4db467a308191bb92feac675fc01d
+Broncommit: ca68d7cc12de2ebf5b4dba67b77f0bc4e8dcc823
+Geslaagde publicatie: appgdep_6af4de13d9c08191950cd0cce4ae8ccc
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Vijfde kolom Eenmalige aankoop: €2.495,00 excl. btw, voor horeca én retail, hardware met lifetime kassamodulelicentie en installatie/instructie. Lifetime licentie vetter vermeld. FDM 2.0-blackbox bij horecamodule; blackboxverzekering / extra garantie lifetime +€10,00 per maand als aparte toeslag. Support 24/7 uitsluitend in regie. Ook bovenaan een opvallend aankoopblok naast software vanaf €19/maand. Geen klantnaam of offertefoto gepubliceerd.
+De vijf prijspakketten gebruiken gedeelde gridrijen. Pakkettitels (inclusief Basis), hoofdprijzen en scheidingslijnen staan exact gelijk per zichtbare rij, onafhankelijk van tekstlengte, betaalperiode en aantal schermen. Het bovenste apparaatbeeld is vervangen door een transparante illustratieve KassaKompas-kassa met horeca en directe verkoop op het scherm, gebaseerd op het oorspronkelijke toestel en de onderste gebruiksfoto. Geen achtergrondscène; onderste bestaande foto behouden.
 
-Browsercontroles geslaagd op 1920, 1440, 1024 en 390 px: vijf pakketten, prominent aankoopblok, vaste aankoopprijs onafhankelijk van periode/schermen, vetdruk lifetime, afzonderlijke voorwaardelijke toeslag, bestaande calculators, jaarbetaling als standaard en werkende contactdrawer. Geen horizontale overloop of JavaScript-fouten.
+Browsercontroles geslaagd op 1920, 1440, 1024 en 390 px: gemeten gelijkheid van titel-, prijs- en lijnposities binnen 1 pixel, beide betaalperiodes, 12 schermen, vaste aankoopprijs, transparantie en geladen kassabeeld, werkend aanvraagpaneel en geen horizontale overloop of JavaScript-fouten.
 
 Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.
