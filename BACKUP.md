@@ -1,12 +1,12 @@
-# KassaKompas — volledige back-up liveversie 63
+# KassaKompas — volledige back-up liveversie 64
 
 Datum: 11 november 2026
-Broncommit: b5588edfe838683604b5cf598ceaa3d85446e903
-Geslaagde publicatie: appgdep_6af4e07cda08819188662f5ae042a6f1
+Broncommit: d24a551a1008362102fb9696e53b9d95889bfd42
+Geslaagde publicatie: appgdep_6af4e36a3674819190b6f99e2fb04f43
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Beide kassabeelden op de prijspagina vervangen door kwaliteitsbewerkte versies met helderdere details en opgeschoonde randen, met behoud van de composities. De bovenste blijft transparant, met horeca en directe verkoop op het scherm; onderaan blijft het bestaande gebruiksbeeld met hand en caféomgeving. Beide beelden worden als verliesvrije PNG geleverd, zonder extra WebP-verliescompressie. Beeldverhoudingen bijgewerkt; normale browsersampling behouden.
+Beide kassabeelden vervangen door nieuwe vrijwel frontale fotografische hardwarebeelden: bovenaan transparant, onderaan een uitnodigende café-/winkelomgeving. De scherminterface wordt als native vector-SVG-overlay in de website gerenderd. Blauw-witte vlakken, tekst en groene Afrekenen-knop zijn scherp schaalbaar. KassaKompas-branding en horeca/directe verkoop zijn behouden. De interface is illustratief, niet interactief.
 
-Browsercontroles geslaagd op 1440 en 390 px bij 2× pixeldichtheid: beide beelden laden, beeldverhoudingen behouden, vijf pakketten behouden en geen horizontale overloop. Transparant alfakanaal bovenste afbeelding gecontroleerd.
+Visueel beoordeelde samengestelde beelden. Browsercontroles geslaagd: 1440 px bij DPR 1 en 2, en 390 px bij DPR 2. Beide foto’s laden, SVG’s zijn zichtbaar met juiste inhoud, transparante hero, vijf prijspakketten, prijsomschakeling en aanvraagpaneel werken; geen horizontale overloop of JavaScript-fouten.
 
 Alle bronbestanden, pagina’s, assets en hostingconfiguratie exact overgenomen. Controlehashes: BACKUP-SHA256.json. Zichtbaarheid en GitHub-hoofdbranch behouden.

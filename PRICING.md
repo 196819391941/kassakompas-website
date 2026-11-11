@@ -42,3 +42,11 @@ Extra garantie lifetime / blackboxverzekering: +€10,00 per maand bij de horeca
 De vijf kaarten gebruiken gedeelde gridrijen (CSS subgrid) voor rubriek, pakkettitel, omschrijving, hoofdprijs, betaalinformatie, licentieaantal, functies en actieknop. Zo staan Basis en de andere pakkettitels op dezelfde hoogte en blijven hoofdprijzen en scheidingslijnen gelijk na prijsomschakeling, schermwijziging en responsive herindeling.
 
 Het bovenste kassabeeld is vervangen door een transparante, gegenereerde variant op basis van het oorspronkelijke toestel en de onderste gebruiksfoto. Het toont KassaKompas-branding met Horeca en Directe verkoop, productfoto’s en Afrekenen. Geen achtergrondscène; het onderste bestaande gebruiksbeeld is behouden. Dit is een illustratieve schermindeling.
+
+## Nieuwe productbeelden met native vectorinterface
+
+Na verdere feedback over gekartelde kleurgrenzen zijn beide eerdere schermfoto’s vervangen. Nieuwe gegenereerde fotografische hardwarebeelden tonen de kassa vrijwel frontaal: bovenaan met transparantie, onderaan in een uitnodigende café/winkelomgeving met een hand bij het scherm.
+
+De interface wordt nu als native SVG-overlay in de website weergegeven. Blauw-witte vlakken, tekst, productillustraties en de groene Afrekenen-knop zijn daardoor schaalbaar en niet afhankelijk van gerasterde gegenereerde UI-details. De interface toont KassaKompas, Horeca, Directe verkoop en producten voor horeca en retail. De afbeelding blijft als illustratieve opstelling aangeduid. De interface is visueel en niet interactief; de omschrijvende aria-labels blijven beschikbaar.
+
+Controles: beide hardwarebeelden geladen, SVG-overlays zichtbaar met juiste inhoud, transparante hero, geen overloop, prijsomschakeling en aanvraagpaneel werken op 1440 px bij DPR 1 en 2 en op 390 px bij DPR 2. Screenshots van beide samengestelde beelden visueel beoordeeld op scherpte en aansluiting van de schermvlakken.
