@@ -58,3 +58,11 @@ Op verzoek zijn beide beelden opnieuw schuin in perspectief gezet, zoals de eerd
 De getekende productillustraties zijn vervangen door zestien fotorealistische productbeelden in een raster van 4×4. Elke uitsnede is afzonderlijk geclipt om buurbeelden te vermijden. De fotografie is illustratief gegenereerd; tekst, kleurvlakken, branding en Afrekenen blijven native vectorelementen. Horeca en Directe verkoop zijn zichtbaar.
 
 Browsercontroles op 1440 px (DPR 1 en 2) en 390 px (DPR 2): twee correct geladen hardwarebeelden, zestien fotovakjes per scherm, perspectieftransformaties en responsive schaling, transparante hero, prijsberekening en aanvraagpaneel gecontroleerd. Samengestelde beelden visueel gecontroleerd op uitlijning en uitsneden.
+
+## HAPOS-geïnspireerde bediening en lichte helling
+
+Op verzoek opnieuw vormgegeven met hoofdknoppen links en bovenaan: links Verkoop, Producten, Klanten, Documenten, Voorraad, Rapporten en Instellingen; boven Directe verkoop, Horeca, Tafels, Bestellingen en Terug. KassaKompas-branding en zestien fotografische productvakjes behouden. Nieuwe gegenereerde hardwarebeelden tonen een lichte commerciële helling, minder sterk dan de vorige steile weergave. Bovenste beeld blijft transparant.
+
+In de onderste scène raakt de vinger het gemarkeerde smoothie-fotovakje binnen het scherm. Een geclipte voorgrondlaag van dezelfde foto behoudt de natuurlijke hand boven de scherpe vectorinterface. De interface is illustratief; tekst, vlakken en knoppen blijven schaalbaar. Geen foto of klantnaam uit de offerte gebruikt.
+
+Browsercontroles op desktop (DPR 1 en 2) en mobiel (DPR 2): nieuwe hoofdknoppen, zestien fotovakjes per scherm, handlaag, perspectief, transparantie, prijsberekening en contactpaneel gecontroleerd. Samengestelde beelden visueel beoordeeld op de schermranden en de aanraking van het productvakje.
