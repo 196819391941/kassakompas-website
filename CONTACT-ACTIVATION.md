@@ -1,11 +1,9 @@
-# Contactaanvragen activeren
+# Contactverzending
 
-Status: sales@kassakompas.com is volgens de gebruiker nog niet actief. De website biedt daarom telefonisch contact; het online formulier is zichtbaar maar uitgeschakeld. Alle contact- en adviesknoppen leiden naar /contact/; onderwerpcontext gaat mee via de querystring. Telefoonlinks blijven direct werken.
+De contactpagina heeft op verzoek de definitieve presentatie zonder tijdelijke meldingen. De gebruiker activeert sales@kassakompas.com binnenkort.
 
-Voor activering:
-1. Activeer en test sales@kassakompas.com, inclusief ontvangst van externe e-mail.
-2. Kies en configureer een echte formulierverzenddienst of serverendpoint met dit adres als ontvanger. Een actieve mailbox alleen levert geen formulierendpoint.
-3. Voeg servervalidatie, spambeperking en correcte fout- en succesmeldingen toe. Behoud de ingevulde aanvraag bij een fout.
-4. Leg de informatie over verwerking van persoonsgegevens vast op basis van de werkelijke dienst en bewaartermijnen.
-5. Test een echte inzending tot en met ontvangst in de mailbox. Schakel daarna de velden en verzendknop in en werk de tijdelijke meldingen bij.
-6. Publiceer met behoud van zichtbaarheid en maak direct de volledige, geverifieerde GitHub-back-up op een aparte branch.
+Het formulier valideert naam, e-mail en bericht en opent een mailto-concept naar sales@kassakompas.com met de volledige aanvraag. De bezoeker verstuurt zelf vanuit het e-mailprogramma. Dit staat vooraf bij de knop; er wordt geen automatische verzending of succes geclaimd. De gegevens blijven bij openen in het formulier staan.
+
+Voor rechtstreeks versturen vanaf de website is later een formulierdienst of serverendpoint nodig. Configureer ontvanger, servervalidatie, spambeperking en correcte fout/succesmeldingen en controleer echte ontvangst. Werk de informatie over gegevensverwerking af op basis van de werkelijke dienst. Activeer geen automatische verzending zonder werkende koppeling.
+
+De Contact-knop in de bestaande hoofdnavigatie is op alle pagina’s consequent blauw met witte tekst. Algemene adviesknoppen leiden naar /contact/ met onderwerpcontext. Telefoonlinks werken rechtstreeks.
