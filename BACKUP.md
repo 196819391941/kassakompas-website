@@ -1,11 +1,10 @@
-# KassaKompas — volledige back-up liveversie 54
+# KassaKompas — volledige back-up liveversie 55
 
 Datum: 11 november 2026
-Broncommit: ae1375bb478cec60cd9dd35ea69affcc6d3ae12a
-Sites-versie: appgprj_6af048855740819188b7a138cea7a2d8~appgver_2de72041c4e48191a8b67599fc11f3d1
-Geslaagde publicatie: appgdep_6af4a6f3d0b081918c55d70fb6dd58bd
+Broncommit: 600d091d68a2bcdc286c163580e5012eef9224cf
+Geslaagde publicatie: appgdep_6af4ac32975081918f38601b9fc0d67c
 Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Toegevoegd: prijspagina en navigatieknop Prijzen. Jaarbetaling: Basis €19,00 en Standaard €29,00 per maand, extra scherm €10,00; twaalf maanden ineens betaald. Maandbetaling: Basis €21,85 en Standaard €33,85, extra scherm €11,50. Alles excl. btw. Tarieven volgens expliciete verduidelijking van de gebruiker; zie PRICING.md. Met jaarlijks/maandelijks schakelaar, schermcalculator, jaarbedragen, contactverwijzingen en twee kassabeelden.
+Het pakket Horeca is toegevoegd naast Basis en Standaard. Horeca: €39,00 per maand bij jaarbetaling (€468,00 ineens per jaar) of €44,85 bij maandbetaling, excl. btw. Inclusief alle Standaard-functies, tafelplan met tafelstatus, tafelbeheer, gangen, menu’s en klantnamen. Extra schermen worden met dezelfde calculator verwerkt. Jaarlijks is op expliciet verzoek de standaardkeuze, ook in de initiële HTML-weergave.
 
-Alle bronbestanden, pagina’s, assets en hostingconfiguratie zijn exact overgenomen. SHA-256-controlelijst: BACKUP-SHA256.json. Alle 25 pagina’s gecontroleerd op lokale links en navigatie; Chromium op 1440 en 390 px: geen horizontale overloop, zichtbare navigatie, werkende prijsomschakeling, juiste berekening voor meerdere schermen en ondergrens, context naar contact, FAQ’s en afbeeldingen. Zichtbaarheid en GitHub-hoofdbranch behouden.
+Alle bronbestanden, assets en hostingconfiguratie zijn exact overgenomen. Controlehashes: BACKUP-SHA256.json. Alle 25 pagina’s gecontroleerd op lokale links en navigatie. Browsercontroles op 1440 en 390 px geslaagd: geen horizontale overloop, juiste tarieven en jaartotalen voor alle drie pakketten, extra schermen, ondergrens, contactcontext, FAQ en afbeeldingen. Zichtbaarheid en GitHub-hoofdbranch behouden.
