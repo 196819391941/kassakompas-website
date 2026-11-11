@@ -1,3 +1,5 @@
-# KassaKompas publicatie en back-ups
+# KassaKompas
 
-Na elke door de gebruiker goedgekeurde en geslaagde publicatie: maak meteen een volledige back-up van exact de gepubliceerde versie op een aparte branch in de bestaande GitHub-repository https://github.com/196819391941/kassakompas-website. Controleer na push alle bronbestanden en assets met hashes en geef de gebruiker de commitlink. Behoud de livewebsite en zichtbaarheidsinstellingen. Een back-up alleen geeft geen toestemming tot herpubliceren of wijzigen van zichtbaarheid.
+Behoud de bestaande hoofdnavigatie en zichtbaarheid, tenzij de gebruiker anders vraagt. Plaats aanvullende uitleg bij het relevante onderwerp en vermijd herhaling van sectorinhoud.
+
+Maak direct na elke door de gebruiker goedgekeurde en geslaagde publicatie een volledige back-up van exact de gepubliceerde versie op een aparte branch in https://github.com/196819391941/kassakompas-website. Neem alle bronbestanden, pagina’s, assets en hostingconfiguratie mee. Controleer na push via opnieuw ophalen alle bestanden met SHA-256 en geef de gebruiker de commitlink. Laat de GitHub-hoofdbranch en de zichtbaarheidsinstellingen intact.
