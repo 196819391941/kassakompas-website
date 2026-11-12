@@ -1,10 +1,10 @@
-# KassaKompas — volledige back-up publicatie 74
+# KassaKompas — volledige back-up publicatie 75
 
 Datum: 12 november 2026 (Europe/Paris)
-Broncommit: d691c77eb5f0ddc14a50f8b32cb2cf746ae029c3
-Geslaagde publicatie: appgdep_6af501164fe08191979e30697fa45631
-Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
+Broncommit: e8c94fd333fc5cb7754426dc3650b1765b868ca8
+Geslaagde publicatie: appgdep_6af5038a59f88191b316703eb9e0ffc7
+Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/contact/
 
-Onderste kassabeeld: apart geplaatste hand raakt de productfoto van de smoothie aan. Mouw loopt door tot fotorand. Beide schermen hebben een donkere onderlaag die de lichte naad tussen layout en zwarte rand afdekt. Toestelgeometrie, toonbank, schaduw, balkverhouding en overige inhoud behouden.
+Telefoonnummer verplicht gemaakt en label voorzien van sterretje. Naam en e-mailadres waren al verplicht. De contactpagina en de ingesloten demo- en infoformulieren gebruiken hetzelfde formulier en vereisen nu alle drie deze gegevens. Prijspagina en goedgekeurde beelden ongewijzigd.
 
-Desktop en mobiel gecontroleerd: één hand uitsluitend onderaan, beeldassets geladen, schermranden, armuitsnede, jaarlijks standaard, contactlade en geen overflow of JavaScript-fouten. Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Na push via verse clone te controleren.
+Alle drie ingangen getest: leeg telefoonveld blokkeert submit; ontbrekende naam of e-mail maakt formulier ongeldig; complete invoer laat submit toe. Geen e-mail verstuurd tijdens tests. Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Na push via verse clone te controleren.
