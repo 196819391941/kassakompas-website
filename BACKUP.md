@@ -1,14 +1,16 @@
-# KassaKompas — volledige back-up publicatie 77
+# KassaKompas — volledige back-up van publicatie 84
 
-Datum: 12 november 2026
-Broncommit: 93d35b93dd6749e2f9380d5e2fa85eb54ed50fcc
-Geslaagde publicatie: appgdep_6af599dd1788819185fe3f3daf678c5d
+Datum: 12 november 2026 (Europe/Paris)
+Broncommit: 553d484159f1ba7a50660327aacfdf54e0b65f08
+Geslaagde publicatie: appgdep_6af63ff67c0c8191bd057be480acce29
 Website: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site
-Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-De prijzenpagina gebruikt dezelfde donkerblauwe footer met contactgegevens als Horeca. De prijzen, calculator, formulieren en overige inhoud zijn behouden.
-Browsercontrole op desktop, tablet en smartphone: footer, contactlinks, navigatie en horizontale uitlijning gecontroleerd. Op smartphone blijft ruimte voor de vaste Demo- en Info-knoppen.
+Deze back-up bevat alle 173 bronbestanden van exact de gepubliceerde website, inclusief alle pagina's, sectorpagina's, Shop, productpagina's, winkelmandje, bestelgegevens, afbeeldingen, iconen, scripts, stylesheets, documentatie en hostingconfiguratie.
+Alle verbeteringen van versie 83 zijn aanwezig: eigen hardwarebeelden met fotoproducteninterface, de KassaKompas-softwaredoos met 'Retail of Horeca', de grotere PAX A77-foto, de homepagekaart Over ons en de vaste navigatie op de horeca- en koppelingenpagina's.
 
-Deze snapshot bevat alle 135 bronbestanden van de gepubliceerde versie, inclusief pagina's, afbeeldingen en hostingconfiguratie.
-BACKUP-SHA256.json bevat de SHA-256-controlesommen van alle bronbestanden voor verificatie na opnieuw ophalen.
-De GitHub-hoofdbranch en zichtbaarheidsinstellingen worden niet gewijzigd.
+Versie 84 verwijdert uitsluitend een ongebruikte browserextensie-markering op Horeca en Retail en een verborgen 1×1 iframe op Horeca dat naar een niet-bestaand lokaal opgeslagen bestand verwees. De overige broninhoud is byte-voor-byte behouden; representatieve schermafbeeldingen zijn pixel-identiek op desktop en smartphone. De winkelwerking en prijsberekeningen zijn behouden.
+
+BACKUP-SHA256.json bevat de SHA-256-controlesommen van alle 173 bronbestanden, voor verificatie na opnieuw ophalen.
+De GitHub-hoofdbranch en zichtbaarheidsinstellingen blijven intact. Deze aparte back-upbranch vervangt geen bestaande websitepublicatie.
+
+Betalingen via Mollie zijn nog niet aangesloten. De Shop werkt met bestelaanvragen per e-mail; het losse touchscreen zonder klantendisplay heeft nog geen bevestigde winkelprijs. Zie SHOP.md voor verdere product- en betaalinformatie.

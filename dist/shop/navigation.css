@@ -1,0 +1,2 @@
+/* Ruimte voor Shop, met alle bestaande menulinks ook op kleinere schermen zichtbaar. */
+@media(max-width:1100px){header.header>.wrap.nav{height:auto;min-height:86px;flex-wrap:wrap;padding-block:14px;gap:16px}header.header>.wrap.nav>nav.links{width:100%;flex:0 0 100%;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}header.header>.wrap.nav>nav.links>a{flex-shrink:0}}

@@ -1,0 +1,450 @@
+export const products = [
+  {
+    "id": "hapos-compleet",
+    "name": "Complete HAPOS-kassa",
+    "category": "Kassasystemen",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Een complete opstelling voor horeca of retail, inclusief lifetime kassamodulelicentie en installatie.",
+    "features": [
+      "Falcon 11-inch touchscreenkassa",
+      "Epson TM-88-bonprinter en automatische geldlade",
+      "Lifetime kassamodulelicentie",
+      "Installatie en instructie inbegrepen"
+    ],
+    "variants": [
+      {
+        "id": "retail",
+        "label": "Retail",
+        "once": 249500,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      },
+      {
+        "id": "horeca",
+        "label": "Horeca — inclusief blackbox",
+        "once": 249500,
+        "month": 1000,
+        "year": 0,
+        "notes": "FDM 2.0-blackbox inbegrepen bij horeca. Lifetime garantie / blackboxverzekering: €10 per maand. Support 24/7 in regie."
+      }
+    ],
+    "badge": "Compleet pakket",
+    "note": "Illustratieve opstelling, zoals op onze prijzenpagina. Bij horeca komt €10 per maand voor de lifetime garantie / blackboxverzekering bij de eenmalige prijs."
+  },
+  {
+    "id": "lifetime-licentie",
+    "name": "Lifetime kassalicentie",
+    "category": "Licenties",
+    "image": "/shop/assets/kassakompas-softwaredoos.webp",
+    "summary": "Eén keer investeren in je kassalicentie. Kies de uitvoering voor je winkel of horecazaak.",
+    "features": [
+      "Keuze uit retail of horeca",
+      "Eenmalige licentieprijs van €1.400",
+      "Blackbox inbegrepen bij de horeca-uitvoering",
+      "Losse hardware niet inbegrepen"
+    ],
+    "variants": [
+      {
+        "id": "retail",
+        "label": "Retail",
+        "once": 140000,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      },
+      {
+        "id": "horeca",
+        "label": "Horeca — inclusief blackbox",
+        "once": 140000,
+        "month": 1000,
+        "year": 0,
+        "notes": "Blackbox inbegrepen, gekoppeld aan €10 per maand lifetime garantie / blackboxverzekering."
+      }
+    ],
+    "badge": "Lifetime",
+    "note": "Bij horeca is de blackbox inbegrepen mits de lifetime garantie / blackboxverzekering van €10 per maand. Vraag ons welke functies en diensten bij jouw opstelling horen."
+  },
+  {
+    "id": "kassabundel",
+    "name": "Touchscreen kassabundel",
+    "category": "Kassasystemen",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Stel je toonbank samen met een touchscreen, klantendisplay en de belangrijkste randapparatuur.",
+    "features": [
+      "Touchscreen en klantendisplay",
+      "Bonprinter en barcodescanner",
+      "Automatische, afsluitbare geldlade",
+      "Softwarelicentie en installatie afzonderlijk"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop hardwarebundel",
+        "once": 109500,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "De afbeelding is illustratief. Het exacte toestel en de aansluiting van de onderdelen stemmen we af op je software."
+  },
+  {
+    "id": "premium-kassabundel",
+    "name": "Premium kassabundel",
+    "category": "Kassasystemen",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Een verzorgde kassaopstelling met een slank touchscreen en een LCD-scherm voor je klant.",
+    "features": [
+      "Touchscreen in slanke uitvoering",
+      "LCD-klantendisplay",
+      "Bonprinter, scanner en afsluitbare geldlade",
+      "Softwarelicentie en installatie afzonderlijk"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop hardwarebundel",
+        "once": 129500,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "Illustratief hardwarebeeld uit de aangeleverde HAPOS-documentatie. De uiteindelijke samenstelling bevestigen we vóór bestelling."
+  },
+  {
+    "id": "huur-kassabundel",
+    "name": "Kassabundel huren",
+    "category": "Kassasystemen",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Een complete kassaopstelling met software, zonder eenmalige aankoop van de hardware.",
+    "features": [
+      "Touchscreenkassa, bonprinter en geldlade",
+      "Barcodescanner inbegrepen",
+      "Software inbegrepen",
+      "Eén complete opstelling"
+    ],
+    "variants": [
+      {
+        "id": "maand",
+        "label": "Maandbetaling",
+        "once": 0,
+        "month": 8500,
+        "year": 0,
+        "notes": ""
+      },
+      {
+        "id": "jaar",
+        "label": "Jaarbetaling — €70 per maand",
+        "once": 0,
+        "month": 0,
+        "year": 84000,
+        "notes": "€840 ineens per jaar, gelijk aan €70 per maand."
+      }
+    ],
+    "badge": "Huren",
+    "note": "De hardware-afbeelding is illustratief. Installatie ter plaatse is niet inbegrepen. Looptijd en samenstelling worden in je voorstel bevestigd."
+  },
+  {
+    "id": "retail-maandlicentie",
+    "name": "Retail maandlicentie",
+    "category": "Licenties",
+    "image": "/shop/assets/kassakompas-softwaredoos.webp",
+    "summary": "Kassasoftware voor je retailzaak, met maandelijkse afrekening.",
+    "features": [
+      "Eén kassalicentie",
+      "Maandelijkse afrekening",
+      "Losse software, zonder hardware"
+    ],
+    "variants": [
+      {
+        "id": "maand",
+        "label": "Per maand",
+        "once": 0,
+        "month": 2900,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "Dit is de losse retaillicentie uit het shopassortiment. Laat de aansluiting op jouw hardware vooraf controleren."
+  },
+  {
+    "id": "retail-jaarlicentie",
+    "name": "Retail jaarlicentie",
+    "category": "Licenties",
+    "image": "/shop/assets/kassakompas-softwaredoos.webp",
+    "summary": "Kies een jaarlicentie voor je retailkassa en betaal het jaarbedrag in één keer.",
+    "features": [
+      "Eén kassalicentie",
+      "Jaarbedrag ineens",
+      "Losse software, zonder hardware"
+    ],
+    "variants": [
+      {
+        "id": "jaar",
+        "label": "Per jaar",
+        "once": 0,
+        "month": 0,
+        "year": 24800,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": ""
+  },
+  {
+    "id": "extra-kassalicentie",
+    "name": "Extra kassalicentie",
+    "category": "Licenties",
+    "image": "/shop/assets/kassakompas-softwaredoos.webp",
+    "summary": "Breid je opstelling uit wanneer je een extra kassa tegelijk wilt gebruiken.",
+    "features": [
+      "Per extra kassa",
+      "Aanvulling op een bestaande licentie",
+      "Geen extra hardware inbegrepen"
+    ],
+    "variants": [
+      {
+        "id": "maand",
+        "label": "Per maand",
+        "once": 0,
+        "month": 1000,
+        "year": 0,
+        "notes": ""
+      },
+      {
+        "id": "jaar",
+        "label": "Per jaar",
+        "once": 0,
+        "month": 0,
+        "year": 12000,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": ""
+  },
+  {
+    "id": "touchscreen-klantendisplay",
+    "name": "Touchscreen + klantendisplay",
+    "category": "Touchscreens",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Een kassascherm met aan de achterkant een display voor je klant.",
+    "features": [
+      "Touchscreen voor de medewerker",
+      "Klantendisplay aan de achterkant",
+      "Losse hardware, zonder softwarelicentie"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop",
+        "once": 87900,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "Illustratief KassaKompas-hardwarebeeld met onze schermindeling. De precieze schermuitvoering en het klantendisplay stemmen we af op je bestelling."
+  },
+  {
+    "id": "touchscreen-slim-lcd",
+    "name": "Slank touchscreen + LCD-klantenscherm",
+    "category": "Touchscreens",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Een slanke kassaopstelling met een LCD-klantenscherm voor een overzichtelijke toonbank.",
+    "features": [
+      "Slanke touchscreenuitvoering",
+      "LCD-klantenscherm inbegrepen",
+      "Losse hardware, zonder softwarelicentie"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop",
+        "once": 107900,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "Illustratief beeld. De precieze uitvoering en aansluitingen worden bij bestelling bevestigd."
+  },
+  {
+    "id": "los-touchscreen",
+    "name": "Los touchscreen",
+    "category": "Touchscreens",
+    "image": "/assets/prijzen/android-kassa.png",
+    "summary": "Alleen een touchscreen nodig? We stemmen het toestel af op je bestaande of nieuwe kassasoftware.",
+    "features": [
+      "Touchscreen zonder afzonderlijk klantendisplay",
+      "Keuze van uitvoering in overleg",
+      "Geen printer, geldlade of software inbegrepen"
+    ],
+    "variants": [],
+    "badge": "",
+    "note": "De prijs van deze losse uitvoering wordt op aanvraag bevestigd. Illustratief HAPOS-beeld."
+  },
+  {
+    "id": "epson-bonprinter",
+    "name": "Epson-bonprinter",
+    "category": "Randapparatuur",
+    "image": "printer",
+    "summary": "Print je kassatickets met een Epson-bonprinter voor je toonbank.",
+    "features": [
+      "Voor het afdrukken van kassatickets",
+      "Controle van model en aansluiting vóór levering",
+      "Los toestel; papierrollen afzonderlijk"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop",
+        "once": 14900,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "De productafbeelding is een schematische illustratie. Het exacte Epson-model en de geschikte aansluiting bevestigen we voor je bestelling."
+  },
+  {
+    "id": "geldlade",
+    "name": "Automatische geldlade",
+    "category": "Randapparatuur",
+    "image": "/shop/assets/geldlade.webp",
+    "summary": "Een afsluitbare metalen geldlade om contant geld overzichtelijk te bewaren.",
+    "features": [
+      "Uitneembare geldtray",
+      "4 vakken voor biljetten en 8 voor munten",
+      "Sleutels meegeleverd",
+      "Aansturing via een geschikte bonprinter"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop",
+        "once": 8900,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": ""
+  },
+  {
+    "id": "kassarollen",
+    "name": "Kassarollen 80 mm — 5 stuks",
+    "category": "Randapparatuur",
+    "image": "/shop/assets/kassarollen.webp",
+    "summary": "Een verpakking van vijf thermische papierrollen voor geschikte 80 mm-bonprinters.",
+    "features": [
+      "Thermisch papier",
+      "80 mm breed",
+      "5 rollen per verpakking",
+      "Controleer de benodigde roldiameter voor je printer"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Per verpakking van 5",
+        "once": 800,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": ""
+  },
+  {
+    "id": "dibal-dpos400",
+    "name": "Dibal D-POS 400 + ijking",
+    "category": "Wegen",
+    "image": "/shop/assets/dibal-dpos400.webp",
+    "summary": "Een compacte toonbankweegschaal voor verkoop per gewicht.",
+    "features": [
+      "Weegcapaciteit tot 15 kg",
+      "Met ijking",
+      "Tarra- en nulfunctie",
+      "Koppeling met geschikte kassa in overleg"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop inclusief ijking",
+        "once": 49900,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "Wij controleren de juiste uitvoering, aansluiting en toepasselijke ijking voor jouw gebruik vóór levering. Beschikbaarheid op bevestiging."
+  },
+  {
+    "id": "pax-a77",
+    "name": "PAX A77 betaalterminal",
+    "category": "Betalen",
+    "image": "/shop/assets/pax-a77-scherp.webp",
+    "summary": "Een compacte draadloze betaalterminal zonder ingebouwde printer. Kies kopen of huren.",
+    "features": [
+      "Draadloos via wifi en 4G",
+      "5,5-inch touchscreen",
+      "Zonder ingebouwde bonprinter",
+      "Huur inclusief support en simkaart"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Kopen — €495",
+        "once": 54000,
+        "month": 1290,
+        "year": 0,
+        "notes": "Toestel €495 + eenmalige dossierkost €45. Support en simkaart: €12,90 per maand. Transactiekosten en contractvoorwaarden worden afzonderlijk bevestigd."
+      },
+      {
+        "id": "huur",
+        "label": "Huren — €36 per maand",
+        "once": 4500,
+        "month": 3600,
+        "year": 0,
+        "notes": "€36 per maand inclusief support en simkaart, plus eenmalig €45 dossierkost. Transactiekosten en contractvoorwaarden worden afzonderlijk bevestigd."
+      }
+    ],
+    "badge": "Kopen of huren",
+    "note": "Aankoopprijs toestel: €495 excl. btw. Dossierkost en terugkerende kosten staan apart in je winkelmandje. Betaalcontract, transactietarieven en looptijd op bevestiging."
+  },
+  {
+    "id": "installatie",
+    "name": "Installatie ter plaatse",
+    "category": "Service",
+    "image": "service",
+    "summary": "Laat je kassaopstelling ter plaatse instellen en neem de bediening samen door.",
+    "features": [
+      "Installatie op afspraak",
+      "Afstemming van je kassaopstelling",
+      "Bespreek vooraf de omvang en locatie"
+    ],
+    "variants": [
+      {
+        "id": "eenmalig",
+        "label": "Eenmalig",
+        "once": 39500,
+        "month": 0,
+        "year": 0,
+        "notes": ""
+      }
+    ],
+    "badge": "",
+    "note": "De afspraak en de scope van de installatie worden vooraf bevestigd. Bij de complete HAPOS-kassa van €2.495 zijn installatie en instructie al inbegrepen."
+  }
+];
