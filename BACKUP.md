@@ -1,10 +1,10 @@
-# KassaKompas — volledige back-up publicatie 75
+# KassaKompas — volledige back-up publicatie 76
 
 Datum: 12 november 2026 (Europe/Paris)
-Broncommit: e8c94fd333fc5cb7754426dc3650b1765b868ca8
-Geslaagde publicatie: appgdep_6af5038a59f88191b316703eb9e0ffc7
-Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/contact/
+Broncommit: 3db2f646a75a61a2d1b58830a67c838bbed77386
+Geslaagde publicatie: appgdep_6af505a717e08191a2cca41845162233
+Pagina: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/prijzen/
 
-Telefoonnummer verplicht gemaakt en label voorzien van sterretje. Naam en e-mailadres waren al verplicht. De contactpagina en de ingesloten demo- en infoformulieren gebruiken hetzelfde formulier en vereisen nu alle drie deze gegevens. Prijspagina en goedgekeurde beelden ongewijzigd.
+Donkerblauwe footer op de prijzenpagina hersteld naar de stijl van Over ons en Retail, met adres, telefoon, e-mailadres en navigatie. Overige inhoud en beelden behouden.
 
-Alle drie ingangen getest: leeg telefoonveld blokkeert submit; ontbrekende naam of e-mail maakt formulier ongeldig; complete invoer laat submit toe. Geen e-mail verstuurd tijdens tests. Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Na push via verse clone te controleren.
+Desktop en mobiel gecontroleerd op blauwe achtergrond, contactgegevens, links, overflow en JavaScript-fouten. Volledige bron, pagina’s, assets en hostingconfiguratie; SHA-256-manifest. GitHub-hoofdbranch en publieke zichtbaarheid behouden. Na push via verse clone te controleren.
