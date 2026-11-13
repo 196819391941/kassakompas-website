@@ -1,9 +1,9 @@
-# KassaKompas — volledige back-up Sites-versie 86
+# KassaKompas — back-up opgeslagen Sites-versie 87
 
 Referentie: https://kassakompas-homepage-voorbeeld.bluishcity.chatgpt.site/
 
-Succesvol gepubliceerd op 13 november 2026. Broncommit: `aed0bfddc08b10b3ec24f5559f764d163db48822`.
+Broncommit: `8fa7b26fcf70a1eeb7633855d387a13f0441ff3b`. Opgeslagen als Sites-versie 87 op 13 november 2026. Publicatiepogingen zijn mislukt door hostingfouten; dit is GEEN bevestiging van een geslaagde live-publicatie. De vorige geverifieerde publicatie is versie 86.
 
-Deze momentopname bevat alle 186 bronbestanden, alle pagina’s, afbeeldingen, navigatie en hostingconfiguratie van de gepubliceerde versie. Shopafwerking: oorspronkelijk all-in-one hardwarebeeld met eigen KassaKompas-interface, productbeelden, zichtbare accessoires, klantendisplay-informatie, labelprinter en commerciële introductie.
+Alle 187 bronbestanden, pagina’s, assets en hostingconfiguratie zijn opgenomen. Deze versie versterkt de betaalbaarheidsboodschap, verkleint vier accessoires in het overzicht, toont de weegschaal op transparantie en geeft gewone POS-kassa’s meer nadruk ten opzichte van de compacte all-in-one. Bestaande prijzen en functionaliteit behouden.
 
-`BACKUP-SHA256.json` bevat SHA-256-controlesommen van ieder bronbestand. De twee BACKUP-bestanden zijn uitsluitend aanvullende back-upmetadata. Bestaande GitHub-hoofdbranch en publicatie-instellingen blijven intact. Deze afzonderlijke back-upbranch wordt niet samengevoegd met main.
+BACKUP-SHA256.json bevat controlesommen van alle bronbestanden. De twee BACKUP-bestanden zijn aanvullende metadata. GitHub-main en publicatie-instellingen blijven intact. Afzonderlijke branch zonder samenvoeging met main.

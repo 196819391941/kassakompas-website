@@ -23,3 +23,15 @@
 .register-stage.all-in-one-stage{aspect-ratio:1;max-width:100%}.product-image>.all-in-one-stage{max-width:230px}.cart-thumbnail>.all-in-one-stage{max-width:100%}.all-in-one-stage .register-display{overflow:hidden}.product-image img[src*="installatie-scherp"],.detail-visual>img[src*="installatie-scherp"]{mix-blend-mode:normal;object-fit:cover;border-radius:3px}.product-image img[src*="installatie-scherp"]{height:100%;width:100%}.product-image img[src*="scherp.webp"],.detail-visual>img[src*="scherp.webp"]{mix-blend-mode:normal}
 @media(max-width:560px){.bundle-accessories figure[data-accessory="blackbox"] img{height:20px}.detail-visual .bundle-accessories figure[data-accessory="blackbox"] img{height:38px}.hero-product .bundle-accessories figure[data-accessory="blackbox"] img{height:28px}.rental-badge{min-height:25px;padding:4px 8px;gap:4px}.rental-badge strong{font-size:12px}.rental-badge span{font-size:7px}.rental-badge svg{width:12px;height:12px}.rental-display>.bundle-main{width:82%;max-width:150px}.detail-visual .rental-display>.bundle-main{width:100%;max-width:none}.product-image>.all-in-one-stage{max-width:165px}}
 .all-in-one-stage .register-hardware{mix-blend-mode:multiply!important}.product-image>.all-in-one-stage{max-width:220px}.detail-visual>.all-in-one-stage{max-width:420px;margin-inline:auto}
+
+/* Rustige accessoires, meer nadruk op onze volwaardige POS-kassa’s. */
+.product-image>img[src*="epson-bonprinter-scherp"],.product-image>img[src*="dibal-scherp"],.product-image>img[src*="kassarollen-scherp"],.product-image>img[src*="geldlade-scherp"]{width:68%;height:58%;max-width:185px;max-height:145px;object-fit:contain;margin:auto;filter:none;mix-blend-mode:normal}
+.product-image .bundle-main{max-width:300px}.product-image>.register-stage:not(.all-in-one-stage){max-width:310px}
+.product-image>.all-in-one-stage{max-width:180px}.product-image .rental-display>.bundle-main{width:100%;max-width:285px}
+@media(max-width:1100px){.product-image .bundle-main{max-width:290px}}
+@media(max-width:560px){.product-image .bundle-main{max-width:205px}.product-image>.register-stage:not(.all-in-one-stage){max-width:215px}.product-image .rental-display>.bundle-main{width:100%;max-width:195px}.product-image>.all-in-one-stage{max-width:135px}.product-image>img[src*="epson-bonprinter-scherp"],.product-image>img[src*="dibal-scherp"],.product-image>img[src*="kassarollen-scherp"],.product-image>img[src*="geldlade-scherp"]{width:65%;height:55%;max-width:135px;max-height:105px}}
+@media(max-width:350px){.product-image .bundle-main{max-width:270px}.product-image>.register-stage:not(.all-in-one-stage){max-width:280px}.product-image .rental-display>.bundle-main{max-width:260px}.product-image>.all-in-one-stage{max-width:165px}}
+/* Voldoende vrije ruimte voor kassa, huurbadge en alle bundelaccessoires. */
+.product-image{height:320px}.product-image .rental-display>.bundle-main{max-width:255px}
+@media(max-width:560px){.product-image{height:250px}.product-image .rental-display>.bundle-main{max-width:195px}}
+@media(max-width:350px){.product-image{height:310px}.product-image .rental-display>.bundle-main{max-width:240px}}

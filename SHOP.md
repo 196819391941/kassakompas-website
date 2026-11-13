@@ -63,3 +63,5 @@ Bron assortiment/prijscontrole: https://www.onlinefact.be/shop/bundels/all-in-on
 Correctie op expliciet verzoek: het all-in-one hardwaremodel is NIET gegenereerd. Het gebruikt de oorspronkelijke, ongewijzigde JPEG uit de gebruikersbijlage (32.jpeg, 172×172). Alleen de scherminhoud wordt vervangen door de bestaande scherpe native KassaKompas/HAPOS-interface. Het afgekeurde gegenereerde all-in-one hardwarebeeld is niet in de publicatie opgenomen. De beschikbare bronfoto is klein; er wordt geen hogere fotografische resolutie geclaimd.
 
 Shopintro uitgebreid met originele commerciële tekst over retail of horeca, kopen of huren, hardware en ondersteuning.
+
+Shopafwerking: commerciële introductie met betaalbaarheid, huur vanaf €85 excl. btw; printer, weegschaal, rollen en lade kleiner in overzicht, grote beelden behouden bij doorklikken. Weegschaal opnieuw vrijstaand op transparantie; andere drie bestaande beelden al transparant. Volwaardige POS-kassa’s meer nadruk dan compact all-in-one model.
