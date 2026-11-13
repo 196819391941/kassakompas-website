@@ -71,7 +71,7 @@ class Translator(HTMLParser):
 def strip_pilot(source):return re.sub(r'<!--language-pilot-(head|switch|note)-->.*?<!--/language-pilot-\1-->','',source,flags=re.S)
 def switch(page,lang):
  labels={'nl':'Nederlands','fr':'Français','en':'English'}
- return '<!--language-pilot-switch--><nav class="language-switch" aria-label="Taal / Langue / Language">'+''.join('<a href="'+PAGES[page][code]+'" lang="'+code+'" hreflang="'+LOCALES[code]+'" aria-label="'+label+'"'+(' aria-current="true"' if code==lang else '')+'>'+code.upper()+'</a>' for code,label in labels.items())+'</nav><!--/language-pilot-switch-->'
+ return '<!--language-pilot-switch--><nav class="language-switch notranslate" translate="no" aria-label="Taal / Langue / Language">'+''.join('<a class="notranslate" translate="no" href="'+PAGES[page][code]+'" lang="'+code+'" hreflang="'+LOCALES[code]+'" aria-label="'+label+'"'+(' aria-current="true"' if code==lang else '')+'>'+code.upper()+'</a>' for code,label in labels.items())+'</nav><!--/language-pilot-switch-->'
 notes={
  'nl':('Taalproef','Homepage en Complete HAPOS-kassa zijn beschikbaar in drie talen. De overige pagina’s zijn nog Nederlands.','Homepage','Complete HAPOS-kassa'),
  'fr':('Aperçu multilingue','L’accueil et la caisse HAPOS complète sont disponibles en trois langues. Les autres pages sont encore en néerlandais.','Accueil','Caisse HAPOS complète'),
@@ -81,8 +81,8 @@ for page,paths in PAGES.items():
  source=re.sub(r'\sdata-language-page="[^"]*"','',strip_pilot(basepath.read_text()))
  for lang,path in paths.items():
   rendered=''.join(Translator(source,page,lang).out)
-  rendered=re.sub(r'<html\b([^>]*)>',lambda m:'<html'+m.group(1)+' data-language-page="'+page+'">',rendered,count=1)
-  head='<!--language-pilot-head--><link rel="stylesheet" href="/language-pilot.css"><script type="module" src="/language-pilot.js"></script>'
+  rendered=re.sub(r'<html\b([^>]*)>',lambda m:'<html'+re.sub(r'\stranslate="[^"]*"','',m.group(1))+' data-language-page="'+page+'" translate="no">',rendered,count=1)
+  head='<!--language-pilot-head--><meta name="google" content="notranslate"><link rel="stylesheet" href="/language-pilot.css"><script type="module" src="/language-pilot.js"></script>'
   if 'rel="canonical"' not in rendered:head+='<link rel="canonical" href="'+ORIGIN+path+'">'
   head+=''.join('<link rel="alternate" hreflang="'+LOCALES[c]+'" href="'+ORIGIN+p+'">' for c,p in paths.items())+'<link rel="alternate" hreflang="x-default" href="'+ORIGIN+paths['nl']+'"><!--/language-pilot-head-->'
   rendered=rendered.replace('</head>',head+'</head>',1)

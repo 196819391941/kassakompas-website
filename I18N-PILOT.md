@@ -25,3 +25,7 @@ De taalkeuze werkt met gewone links en vereist geen JavaScript om de juiste pagi
 `locales/pilot.json` bevat de bronteksten en de Franse/Engelse vertalingen. `python scripts/build-language-pilot.py` bouwt de vier vertaalde HTML-pagina’s, taalkeuze en kleine clientwoordenlijst opnieuw op vanuit de Nederlandse proefpagina’s. De bouwstap is herhaalbaar en gebruikt alleen de standaardbibliotheek van Python. Geen nieuwe runtimebibliotheek of serverinfrastructuur.
 
 De bestaande `dist/shop/shop.js` gebruikt vertaalfuncties alleen waar productbediening tekst genereert. Op Nederlandse en overige bestaande shoppagina’s blijven de oorspronkelijke teksten en valutaweergave behouden.
+
+## Bescherming tegen dubbele browservertaling
+
+De zes proefpagina’s en taalkeuzelinks gebruiken `translate="no"`; de pagina’s hebben ook `google=notranslate`. Zo worden de eigen volledige vertalingen niet nogmaals automatisch vertaald door de browser. Taalcodes blijven letterlijk NL, FR en EN (het Franse woord “en” mag niet door browservertaling “in” worden). Er wordt geen extra taalomleiding toegevoegd; de gekozen taal blijft bepaald door de URL. De precieze melding van het terugspringen wordt nog met de gebruiker gecontroleerd.
