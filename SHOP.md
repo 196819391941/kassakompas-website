@@ -47,3 +47,19 @@ Prijzen, varianten, licentie-/installatieopties en berekeningen zijn behouden.
 ## Bundels en accessoires samen afgebeeld
 
 Op verzoek van 13 november staan bij de bundels de losse accessoires onder onze bestaande native kassa-interface in hetzelfde beeldkader. Complete HAPOS-aankoop €2.495: uitsluitend bonprinter en illustratieve blackbox naast de kassa; de blackbox is expliciet voor horeca aangeduid. Gewone en premium hardwarebundel: geldlade, scanner en bonprinter. Huurbundel: dezelfde accessoires plus de KassaKompas-softwaredoos als inbegrepen software. Hardware/klantendisplay: kleiner display voor standaarduitvoeringen, groter LCD-display voor premium/slanke LCD-uitvoering, achter de bestaande hoofdterminal gepositioneerd. Het hoofdtoestel, de scherpe fotoproducteninterface en de prijs-/optieberekeningen zijn behouden. De generieke blackbox en losse LCD-accessoire zijn illustratief gegenereerd; geen specifiek model of certificering wordt geclaimd door die afbeeldingen.
+
+## Shop-afwerking en nieuwe producten — 13 november 2026
+
+Blackbox kleiner dan printer in alle bundelbeelden; prijs bij hero staat apart onder het productbeeld en bedekt geen toestel. Geldlades worden expliciet afgebeeld en direct geladen in gewone, premium- en huurbundel. De huurbundel heeft een rustig blauw prijsaccent met stericoon (€85/maand, bij jaarselectie op de detailpagina €70/maand met toelichting). Geen onbevestigde populariteitsstatistiek geclaimd.
+
+Retail maandlicentie heet nu Kassalicentie; bestaande product-ID en URL blijven behouden. Het voormalige losse scherm is op dezelfde URL/product-ID vervangen door een all-in-one toestel met ingebouwde bonprinter en klantendisplay voor €879 excl. btw, met softwarelicentie afzonderlijk. De all-in-one gebruikt exact de bestaande native KassaKompas/HAPOS-interface met 16 fotoproducten, geprojecteerd op het hardwarebeeld. Een Brother QL-600 labelprinter van €85 excl. btw is toegevoegd. Andere prijzen en opties zijn behouden.
+
+Bij alle afgebeelde klantendisplays benoemt de productinformatie expliciet de aanwezigheid en plaatsing; bij premium/slanke LCD-uitvoering wordt het grotere LCD-klantenscherm aan de achterkant vermeld.
+
+Nieuwe scherpe illustratieve productbeelden voor Epson-bonprinter, geldlade, vijf kassarollen, weegschaal en labelprinter zijn gegenereerd, waar beschikbaar op basis van de gebruikersbijlage. Illustratieve installatiefoto is eveneens gegenereerd en als illustratief benoemd. Geen foto van Over ons is gebruikt. Bij exacte modellen, aansluitingen, softwarekoppeling en uitvoering blijft voorafgaande bevestiging vereist. De foto’s zijn geen nieuwe compatibiliteits- of certificeringsclaims.
+
+Bron assortiment/prijscontrole: https://www.onlinefact.be/shop/bundels/all-in-one-scherm-(touchscreen-printer-vfd-display)-871/ en https://www.onlinefact.be/shop/labelprinters/brother-ql-600-81/ . De all-in-one-prijs €879 en labelprinterprijs €85 zijn door de gebruiker expliciet opgegeven.
+
+Correctie op expliciet verzoek: het all-in-one hardwaremodel is NIET gegenereerd. Het gebruikt de oorspronkelijke, ongewijzigde JPEG uit de gebruikersbijlage (32.jpeg, 172×172). Alleen de scherminhoud wordt vervangen door de bestaande scherpe native KassaKompas/HAPOS-interface. Het afgekeurde gegenereerde all-in-one hardwarebeeld is niet in de publicatie opgenomen. De beschikbare bronfoto is klein; er wordt geen hogere fotografische resolutie geclaimd.
+
+Shopintro uitgebreid met originele commerciële tekst over retail of horeca, kopen of huren, hardware en ondersteuning.

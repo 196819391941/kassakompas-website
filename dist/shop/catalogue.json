@@ -72,7 +72,7 @@
     "image": "/assets/prijzen/android-kassa.png",
     "summary": "Stel je toonbank samen met een touchscreen, klantendisplay en de belangrijkste randapparatuur.",
     "features": [
-      "Touchscreen en klantendisplay",
+      "Touchscreen met achteraan gemonteerd klantendisplay",
       "Bonprinter en barcodescanner",
       "Automatische, afsluitbare geldlade",
       "Softwarelicentie en installatie afzonderlijk"
@@ -98,7 +98,7 @@
     "summary": "Een verzorgde kassaopstelling met een slank touchscreen en een LCD-scherm voor je klant.",
     "features": [
       "Touchscreen in slanke uitvoering",
-      "LCD-klantendisplay",
+      "Groter LCD-klantenscherm aan de achterkant inbegrepen",
       "Bonprinter, scanner en afsluitbare geldlade",
       "Softwarelicentie en installatie afzonderlijk"
     ],
@@ -122,9 +122,9 @@
     "image": "/assets/prijzen/android-kassa.png",
     "summary": "Een complete kassaopstelling met software, zonder eenmalige aankoop van de hardware.",
     "features": [
-      "Touchscreenkassa, bonprinter en geldlade",
-      "Barcodescanner inbegrepen",
-      "Software inbegrepen",
+      "Touchscreenkassa met klantendisplay aan de achterkant",
+      "Bonprinter, barcodescanner en geldlade inbegrepen",
+      "KassaKompas-software inbegrepen",
       "Eén complete opstelling"
     ],
     "variants": [
@@ -150,7 +150,7 @@
   },
   {
     "id": "retail-maandlicentie",
-    "name": "Retail maandlicentie",
+    "name": "Kassalicentie",
     "category": "Licenties",
     "image": "/shop/assets/kassakompas-softwaredoos.webp",
     "summary": "Kassasoftware voor je retailzaak, met maandelijkse afrekening.",
@@ -236,7 +236,7 @@
     "summary": "Een kassascherm met aan de achterkant een display voor je klant.",
     "features": [
       "Touchscreen voor de medewerker",
-      "Klantendisplay aan de achterkant",
+      "Klantendisplay achteraan gemonteerd en inbegrepen",
       "Losse hardware, zonder softwarelicentie"
     ],
     "variants": [
@@ -260,7 +260,7 @@
     "summary": "Een slanke kassaopstelling met een LCD-klantenscherm voor een overzichtelijke toonbank.",
     "features": [
       "Slanke touchscreenuitvoering",
-      "LCD-klantenscherm inbegrepen",
+      "Groter LCD-klantenscherm aan de achterkant inbegrepen",
       "Losse hardware, zonder softwarelicentie"
     ],
     "variants": [
@@ -278,24 +278,34 @@
   },
   {
     "id": "los-touchscreen",
-    "name": "Los touchscreen",
+    "name": "All-in-one touchscreenkassa",
     "category": "Touchscreens",
-    "image": "/assets/prijzen/android-kassa.png",
-    "summary": "Alleen een touchscreen nodig? We stemmen het toestel af op je bestaande of nieuwe kassasoftware.",
+    "image": "/shop/assets/all-in-one-onlinefact-origineel.jpg",
+    "summary": "Een compacte kassa met touchscreen, ingebouwde bonprinter en klantendisplay. Alles netjes in één toestel.",
     "features": [
-      "Touchscreen zonder afzonderlijk klantendisplay",
-      "Keuze van uitvoering in overleg",
-      "Geen printer, geldlade of software inbegrepen"
+      "Touchscreen met onze KassaKompas-schermindeling afgebeeld",
+      "Bonprinter ingebouwd in de behuizing",
+      "Klantendisplay inbegrepen",
+      "Hardwareprijs; softwarelicentie afzonderlijk"
     ],
-    "variants": [],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop all-in-one toestel",
+        "once": 87900,
+        "month": 0,
+        "year": 0,
+        "notes": "Touchscreen, ingebouwde bonprinter en klantendisplay. Softwarelicentie afzonderlijk."
+      }
+    ],
     "badge": "",
-    "note": "De prijs van deze losse uitvoering wordt op aanvraag bevestigd. Illustratief HAPOS-beeld."
+    "note": "Oorspronkelijk hardwarebeeld van het all-in-one toestel uit de bijlage, met onze eigen schermindeling. Het scherm toont onze eigen KassaKompas-layout; een softwarelicentie is niet in de hardwareprijs inbegrepen. Exacte uitvoering en compatibiliteit worden vooraf bevestigd."
   },
   {
     "id": "epson-bonprinter",
     "name": "Epson-bonprinter",
     "category": "Randapparatuur",
-    "image": "printer",
+    "image": "/shop/assets/epson-bonprinter-scherp.webp",
     "summary": "Print je kassatickets met een Epson-bonprinter voor je toonbank.",
     "features": [
       "Voor het afdrukken van kassatickets",
@@ -313,13 +323,13 @@
       }
     ],
     "badge": "",
-    "note": "De productafbeelding is een schematische illustratie. Het exacte Epson-model en de geschikte aansluiting bevestigen we voor je bestelling."
+    "note": "Illustratief Epson-productbeeld. Het exacte model en de geschikte aansluiting bevestigen we vóór je bestelling. Papierrollen zijn afzonderlijk verkrijgbaar."
   },
   {
     "id": "geldlade",
     "name": "Automatische geldlade",
     "category": "Randapparatuur",
-    "image": "/shop/assets/geldlade.webp",
+    "image": "/shop/assets/geldlade-scherp.webp",
     "summary": "Een afsluitbare metalen geldlade om contant geld overzichtelijk te bewaren.",
     "features": [
       "Uitneembare geldtray",
@@ -338,13 +348,13 @@
       }
     ],
     "badge": "",
-    "note": ""
+    "note": "Productillustratie op basis van het aangeleverde productbeeld. De exacte uitvoering wordt vóór levering bevestigd."
   },
   {
     "id": "kassarollen",
     "name": "Kassarollen 80 mm — 5 stuks",
     "category": "Randapparatuur",
-    "image": "/shop/assets/kassarollen.webp",
+    "image": "/shop/assets/kassarollen-scherp.webp",
     "summary": "Een verpakking van vijf thermische papierrollen voor geschikte 80 mm-bonprinters.",
     "features": [
       "Thermisch papier",
@@ -363,13 +373,13 @@
       }
     ],
     "badge": "",
-    "note": ""
+    "note": "Productillustratie op basis van het aangeleverde productbeeld. De exacte uitvoering wordt vóór levering bevestigd."
   },
   {
     "id": "dibal-dpos400",
     "name": "Dibal D-POS 400 + ijking",
     "category": "Wegen",
-    "image": "/shop/assets/dibal-dpos400.webp",
+    "image": "/shop/assets/dibal-scherp.webp",
     "summary": "Een compacte toonbankweegschaal voor verkoop per gewicht.",
     "features": [
       "Weegcapaciteit tot 15 kg",
@@ -388,7 +398,7 @@
       }
     ],
     "badge": "",
-    "note": "Wij controleren de juiste uitvoering, aansluiting en toepasselijke ijking voor jouw gebruik vóór levering. Beschikbaarheid op bevestiging."
+    "note": "Wij controleren de juiste uitvoering, aansluiting en toepasselijke ijking voor jouw gebruik vóór levering. Beschikbaarheid op bevestiging. Productillustratie op basis van het aangeleverde productbeeld. De exacte uitvoering wordt vóór levering bevestigd."
   },
   {
     "id": "pax-a77",
@@ -427,7 +437,7 @@
     "id": "installatie",
     "name": "Installatie ter plaatse",
     "category": "Service",
-    "image": "service",
+    "image": "/shop/assets/installatie-scherp.webp",
     "summary": "Laat je kassaopstelling ter plaatse instellen en neem de bediening samen door.",
     "features": [
       "Installatie op afspraak",
@@ -445,6 +455,31 @@
       }
     ],
     "badge": "",
-    "note": "De afspraak en de scope van de installatie worden vooraf bevestigd. Bij de complete HAPOS-kassa van €2.495 zijn installatie en instructie al inbegrepen."
+    "note": "Illustratieve foto bij onze installatieservice. Afspraak, locatie en scope worden vooraf bevestigd. Bij de complete HAPOS-kassa van €2.495 zijn installatie en instructie al inbegrepen."
+  },
+  {
+    "id": "labelprinter",
+    "name": "Brother QL-600 labelprinter",
+    "category": "Randapparatuur",
+    "image": "/shop/assets/labelprinter-scherp.webp",
+    "summary": "Maak overzichtelijke product-, prijs- en schaplabels met een compacte labelprinter voor je toonbank of kantoor.",
+    "features": [
+      "Compacte desktoplabelprinter",
+      "Voor geschikte Brother DK-labelrollen",
+      "Labels en labelsoftware afzonderlijk te bespreken",
+      "Aansluiting en koppeling met je kassasoftware vooraf controleren"
+    ],
+    "variants": [
+      {
+        "id": "koop",
+        "label": "Aankoop labelprinter",
+        "once": 8500,
+        "month": 0,
+        "year": 0,
+        "notes": "Labelrollen afzonderlijk verkrijgbaar. Softwarekoppeling en aansluiting op bevestiging."
+      }
+    ],
+    "badge": "",
+    "note": "Illustratief productbeeld op basis van de aangeleverde Brother QL-600-foto. De labelrollen, concrete uitvoering en softwarekoppeling stemmen we vooraf af."
   }
 ]
