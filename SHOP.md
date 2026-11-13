@@ -73,3 +73,5 @@ Publicatieherstel 13 november 2026: de gewijzigde Shop is visueel gecontroleerd 
 Werkende privétest — Shopafwerking 13 november 2026: bovenste bonprinter en blackbox iets groter, alle losse klantendisplays apart rechtsonder bij de POS met bijschrift, maand- en jaarlicenties voor retail- of horecazaak, accessoires op tussenmaat en labelprinter in exact dezelfde verhouding. Alle 18 product-ID’s en prijzen behouden. Responsive gecontroleerd op 1440, 768, 390 en 320 px. Deze bron heeft de hostingidentiteit van het bestaande privétestproject; de oorspronkelijke openbare URL en publicatie zijn niet gewijzigd. Basis: volledige bron van oorspronkelijke Sites-versie 90.
 
 Laatste detail: bundelbijschrift “Software” zonder “inbegrepen”; prijsblokken per rij gelijk uitgelijnd, inclusief het steraccent bij de huurprijs.
+
+Extra afwerking: grote LCD-klantenschermen krijgen circa anderhalf keer de beeldhoogte van de gewone klantendisplays, ook mobiel en op detailpagina’s. Geldlade, kassarollen en weegschaal in het overzicht circa 15% groter; overige productbeelden en prijzen behouden.

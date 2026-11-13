@@ -65,3 +65,15 @@
 .product-copy .card-price strong{line-height:1.2}.product-copy .card-price>span{line-height:1.5}
 @media(max-width:560px){.product-copy .card-price{height:70px;min-height:70px}}
 .product-copy .tax-label{min-height:32px}
+/* Grotere LCD-uitvoering ook werkelijk groter tonen, met een eigen beeldhoogte. */
+.product-image{height:425px}
+.customer-display-view.large{width:46%;max-width:175px}
+.customer-display-view.large .bundle-rear-screen{height:88px!important}
+.bundle-main:has(>.customer-display-view.large){padding-bottom:98px}
+.detail-visual .customer-display-view.large{width:46%;max-width:265px}
+.detail-visual .customer-display-view.large .bundle-rear-screen{height:135px!important}
+.detail-visual .bundle-main:has(>.customer-display-view.large){padding-bottom:145px}
+.product-image>img:is([src*="geldlade-scherp"],[src*="kassarollen-scherp"],[src*="dibal-scherp"]){width:72%;height:42%;max-width:190px;max-height:145px}
+@media(max-width:560px){.product-image{height:315px}.customer-display-view.large{width:53%;max-width:112px}.customer-display-view.large .bundle-rear-screen{height:60px!important}.bundle-main:has(>.customer-display-view.large){padding-bottom:70px}.detail-visual .customer-display-view.large{max-width:175px}.detail-visual .customer-display-view.large .bundle-rear-screen{height:98px!important}.detail-visual .bundle-main:has(>.customer-display-view.large){padding-bottom:110px}.product-image>img:is([src*="geldlade-scherp"],[src*="kassarollen-scherp"],[src*="dibal-scherp"]){width:70%;height:40%;max-width:130px;max-height:105px}}
+@media(max-width:350px){.product-image{height:435px}.customer-display-view.large{max-width:155px}.customer-display-view.large .bundle-rear-screen{height:74px!important}.bundle-main:has(>.customer-display-view.large){padding-bottom:85px}.product-image>img:is([src*="geldlade-scherp"],[src*="kassarollen-scherp"],[src*="dibal-scherp"]){max-width:173px;max-height:133px}}
+@media(max-width:560px){.detail-visual .customer-display-view.large{width:55%}}
