@@ -39,3 +39,23 @@
 .rental-price>strong,.rental-price>span{grid-column:2}
 @media(max-width:560px){.product-image{height:250px}.product-image .bundle-main,.product-image .rental-display>.bundle-main{max-width:225px}.product-image>.register-stage:not(.all-in-one-stage){max-width:245px}.product-image>.all-in-one-stage{max-width:115px}.product-image>img[src*="epson-bonprinter-scherp"],.product-image>img[src*="dibal-scherp"],.product-image>img[src*="kassarollen-scherp"],.product-image>img[src*="geldlade-scherp"]{width:44%;height:29%;max-width:85px;max-height:65px}.detail-visual>img[src*="epson-bonprinter-scherp"],.detail-visual>img[src*="dibal-scherp"],.detail-visual>img[src*="kassarollen-scherp"],.detail-visual>img[src*="geldlade-scherp"]{width:76%;max-width:260px;height:190px}.rental-price{padding:10px 8px;grid-template-columns:18px 1fr;column-gap:5px}.rental-price::before{font-size:21px}}
 @media(max-width:350px){.product-image{height:310px}.product-image .bundle-main,.product-image .rental-display>.bundle-main{max-width:280px}.product-image>.register-stage:not(.all-in-one-stage){max-width:300px}.product-image>.all-in-one-stage{max-width:150px}.product-image>img[src*="epson-bonprinter-scherp"],.product-image>img[src*="dibal-scherp"],.product-image>img[src*="kassarollen-scherp"],.product-image>img[src*="geldlade-scherp"]{max-width:110px;max-height:80px}}
+
+/* Afwerking: herkenbare klantendisplays rechtsonder en accessoires op tussenmaat. */
+.product-image{height:380px}
+.bundle-main.with-customer-display{padding-bottom:60px}
+.customer-display-view{position:absolute;right:0;bottom:0;z-index:4;width:28%;max-width:105px;margin:0;text-align:center}
+.customer-display-view.large{width:39%;max-width:145px}
+.customer-display-view .bundle-rear-screen{position:static!important;display:block!important;width:100%!important;height:60px!important;object-fit:contain!important;margin:auto;mix-blend-mode:normal!important;filter:none!important}
+.customer-display-view figcaption{font-size:9px;line-height:1.3;color:#536f84;margin-top:3px}
+.detail-visual .bundle-main.with-customer-display{padding-bottom:95px}
+.detail-visual .customer-display-view{max-width:165px}.detail-visual .customer-display-view.large{max-width:215px}
+.detail-visual .customer-display-view .bundle-rear-screen{height:90px!important}
+.detail-visual .customer-display-view figcaption{font-size:11px}
+.hero-product .bundle-accessories{max-width:72%}
+.hero-product .bundle-accessories img{height:80px}
+.hero-product .bundle-accessories figure[data-accessory="blackbox"] img{height:45px;width:50%}
+.product-image>img:is([src*="epson-bonprinter-scherp"],[src*="dibal-scherp"],[src*="kassarollen-scherp"],[src*="geldlade-scherp"],[src*="labelprinter-scherp"]){width:62%;height:38%;max-width:165px;max-height:125px;object-fit:contain;margin:auto;filter:none;mix-blend-mode:normal}
+.detail-visual>img[src*="labelprinter-scherp"]{display:block;width:76%;max-width:350px;height:250px;object-fit:contain;margin:auto;filter:none;mix-blend-mode:normal}
+@media(max-width:560px){.product-image{height:285px}.bundle-main.with-customer-display{padding-bottom:46px}.customer-display-view{max-width:70px;width:35%}.customer-display-view.large{max-width:90px;width:47%}.customer-display-view .bundle-rear-screen{height:40px!important}.customer-display-view figcaption{font-size:7px;margin-top:2px}.detail-visual .bundle-main.with-customer-display{padding-bottom:70px}.detail-visual .customer-display-view .bundle-rear-screen{height:65px!important}.detail-visual .customer-display-view{max-width:110px}.detail-visual .customer-display-view.large{max-width:145px}.detail-visual .customer-display-view figcaption{font-size:9px}.hero-product .bundle-accessories img{height:58px}.hero-product .bundle-accessories figure[data-accessory="blackbox"] img{height:34px}.product-image>img:is([src*="epson-bonprinter-scherp"],[src*="dibal-scherp"],[src*="kassarollen-scherp"],[src*="geldlade-scherp"],[src*="labelprinter-scherp"]){width:60%;height:36%;max-width:112px;max-height:90px}.detail-visual>img[src*="labelprinter-scherp"]{max-width:260px;height:190px}}
+@media(max-width:350px){.product-image{height:355px}.bundle-main.with-customer-display{padding-bottom:55px}.customer-display-view .bundle-rear-screen{height:50px!important}.customer-display-view{max-width:95px}.customer-display-view.large{max-width:125px}.customer-display-view figcaption{font-size:8px}.product-image>img:is([src*="epson-bonprinter-scherp"],[src*="dibal-scherp"],[src*="kassarollen-scherp"],[src*="geldlade-scherp"],[src*="labelprinter-scherp"]){max-width:150px;max-height:115px}}
+@media(max-width:350px){.product-image{height:390px}}

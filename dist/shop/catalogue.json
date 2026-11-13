@@ -153,7 +153,7 @@
     "name": "Kassalicentie",
     "category": "Licenties",
     "image": "/shop/assets/kassakompas-softwaredoos.webp",
-    "summary": "Kassasoftware voor je retailzaak, met maandelijkse afrekening.",
+    "summary": "Kassasoftware voor je retail- of horecazaak, met maandelijkse afrekening.",
     "features": [
       "Eén kassalicentie",
       "Maandelijkse afrekening",
@@ -170,14 +170,14 @@
       }
     ],
     "badge": "",
-    "note": "Dit is de losse retaillicentie uit het shopassortiment. Laat de aansluiting op jouw hardware vooraf controleren."
+    "note": "Kies de kassalicentie voor jouw retail- of horecazaak. Laat de aansluiting op jouw hardware vooraf controleren."
   },
   {
     "id": "retail-jaarlicentie",
-    "name": "Retail jaarlicentie",
+    "name": "Jaarlicentie",
     "category": "Licenties",
     "image": "/shop/assets/kassakompas-softwaredoos.webp",
-    "summary": "Kies een jaarlicentie voor je retailkassa en betaal het jaarbedrag in één keer.",
+    "summary": "Kies een jaarlicentie voor je retail- of horecazaak en betaal het jaarbedrag in één keer.",
     "features": [
       "Eén kassalicentie",
       "Jaarbedrag ineens",
@@ -379,7 +379,7 @@
     "id": "dibal-dpos400",
     "name": "Dibal D-POS 400 + ijking",
     "category": "Wegen",
-    "image": "/shop/assets/dibal-scherp-vrijstaand.png",
+    "image": "/shop/assets/dibal-scherp-vrijstaand.webp",
     "summary": "Een compacte toonbankweegschaal voor verkoop per gewicht.",
     "features": [
       "Weegcapaciteit tot 15 kg",
