@@ -43,3 +43,7 @@ Alle kassabundels en touchscreens tonen nu hetzelfde goedgekeurde transparante h
 PAX A77: de overzichtsminiatuur van 172×172 is vervangen door de grotere bronfoto van 582×495 uit de aangeleverde PAX-product-PDF (geëxtraheerd als 52.jpeg). Geen gegenereerde terminal, kunstmatige vergroting of verscherpingsfilter. Fabrikantbeelden zijn online gevonden op https://www.paxtechnology.com/a77 en https://www.pax.us/products/mobile/a77/; rechtstreekse download is door de omgevingsnetwerkregels geblokkeerd. De gebruikte lokale foto komt daarom uit de gebruikersbijlage.
 
 Prijzen, varianten, licentie-/installatieopties en berekeningen zijn behouden.
+
+## Bundels en accessoires samen afgebeeld
+
+Op verzoek van 13 november staan bij de bundels de losse accessoires onder onze bestaande native kassa-interface in hetzelfde beeldkader. Complete HAPOS-aankoop €2.495: uitsluitend bonprinter en illustratieve blackbox naast de kassa; de blackbox is expliciet voor horeca aangeduid. Gewone en premium hardwarebundel: geldlade, scanner en bonprinter. Huurbundel: dezelfde accessoires plus de KassaKompas-softwaredoos als inbegrepen software. Hardware/klantendisplay: kleiner display voor standaarduitvoeringen, groter LCD-display voor premium/slanke LCD-uitvoering, achter de bestaande hoofdterminal gepositioneerd. Het hoofdtoestel, de scherpe fotoproducteninterface en de prijs-/optieberekeningen zijn behouden. De generieke blackbox en losse LCD-accessoire zijn illustratief gegenereerd; geen specifiek model of certificering wordt geclaimd door die afbeeldingen.
