@@ -1,31 +1,23 @@
-# KassaKompas — taalproef NL, FR en EN
+# KassaKompas — volledige meertalige website
 
-Deze proef is uitsluitend gepubliceerd op het bestaande privétestproject. De oorspronkelijke openbare website, URL en toegangsinstellingen blijven behouden.
+De oorspronkelijke taalproef is uitgebreid tot alle 45 klantenpagina’s: Nederlands, Frans en Engels (135 routes). Nederlands blijft de standaard. De bestaande publieke oorspronkelijke Site is niet gewijzigd; deze uitwerking hoort bij de afzonderlijke, private test-Site in `.openai/hosting.json`.
 
-## Pagina’s
+## Bron en opbouw
 
-| Pagina | Nederlands | Frans | Engels |
-| --- | --- | --- | --- |
-| Homepage | `/index.html` | `/fr/` | `/en/` |
-| Complete HAPOS-kassa | `/shop/hapos-compleet/` | `/fr/shop/caisse-hapos-complete/` | `/en/shop/complete-hapos-pos/` |
+- `locales/site.json`: handmatig uitgewerkte Franse en Engelse vertalingen met de oorspronkelijke Nederlandse tekst als sleutel.
+- `locales/routes.json`: expliciete koppeling tussen de 45 pagina’s en hun drie URL’s.
+- `scripts/build-i18n.py`: statische generatie van pagina’s, SEO-metadata, canonical- en hreflangverwijzingen. `build-language-pilot.py` blijft een compatibele ingang voor dezelfde volledige generatie.
+- `scripts/i18n-runtime.template.js`: lichte gedeelde browserlogica voor dynamische winkel- en formulierteksten. Alleen dynamisch benodigde vertalingen komen in het browserbestand.
+- Bestaande foto’s, hardwarebeelden en kassasoftwarebeelden zijn behouden. De voorbeeldsoftware op productafbeeldingen wordt niet vertaald en vormt geen belofte over ondersteunde softwaretalen.
 
-De taalkeuze werkt met gewone links en vereist geen JavaScript om de juiste pagina te openen. Nederlands is de standaard; er is geen automatische omleiding op basis van browsertaal. Bij wisselen blijven de pagina en het anker behouden. Op de productpagina blijven de uitvoering, het aantal en de gekozen extra licentie behouden wanneer JavaScript beschikbaar is. De winkelmand gebruikt dezelfde bestaande product-ID’s, opslag en prijsberekening.
+Bewerken: wijzig Nederlandse bronpagina’s en voeg de bijbehorende teksten toe aan `locales/site.json`; voer daarna `python scripts/build-i18n.py` uit. De generator rapporteert onbekende teksten ter beoordeling. Pijlsymbolen zijn taalneutraal. Alle artikelteksten en metadata staan direct in de HTML: geen externe vertaalservice of nieuwe bibliotheek.
 
-## Vertalingen en grenzen
+## Gedrag
 
-- Volledige zichtbare webtekst van beide proefpagina’s, navigatie, bijschriften, metadata en beschrijvende alt-teksten vertaald naar professioneel Frans en Engels.
-- Productkeuzes, kostenregels en bevestigingsmeldingen worden ook vertaald. Valutabedragen gebruiken de notatie van de gekozen taal.
-- Foto’s en de goedgekeurde Nederlandstalige software-interface in de productillustratie blijven intact. Dit is geen toezegging over de beschikbare talen van de kassasoftware.
-- Overige pagina’s, waaronder het winkelmandje en bestellen, blijven voorlopig Nederlands. De melding bovenaan maakt dit duidelijk; de vertaalde winkelmandlinks vermelden NL.
-- Geen productprijzen, product-ID’s, installatiekosten, garantietarieven of voorwaarden gewijzigd.
-- Unieke paginatitels, beschrijvingen, taalattributen, canonieke test-URL’s en hreflang-varianten aangebracht. Bestaande noindex-instructies van de homepage behouden.
+De taalkeuze verwijst naar dezelfde pagina in de gekozen taal. Productvariant, aantal, extra licentie, installatiekeuze en URL-fragment blijven behouden. Productcodes, winkelmandopslag, prijzen en btw-berekeningen zijn gedeeld; er worden geen aparte taalproducten gemaakt. Klantinvoer wordt ongewijzigd verwerkt. De bestaande e-mailaanvraag blijft een aanvraag, geen online betaling.
 
-## Onderhoud
+HTML en taalkeuze zijn beschermd tegen automatische browservertaling (`translate="no"` en Google `notranslate`), zodat taalnamen niet veranderen en geen automatische omleiding ontstaat.
 
-`locales/pilot.json` bevat de bronteksten en de Franse/Engelse vertalingen. `python scripts/build-language-pilot.py` bouwt de vier vertaalde HTML-pagina’s, taalkeuze en kleine clientwoordenlijst opnieuw op vanuit de Nederlandse proefpagina’s. De bouwstap is herhaalbaar en gebruikt alleen de standaardbibliotheek van Python. Geen nieuwe runtimebibliotheek of serverinfrastructuur.
+## Controle en publicatie
 
-De bestaande `dist/shop/shop.js` gebruikt vertaalfuncties alleen waar productbediening tekst genereert. Op Nederlandse en overige bestaande shoppagina’s blijven de oorspronkelijke teksten en valutaweergave behouden.
-
-## Bescherming tegen dubbele browservertaling
-
-De zes proefpagina’s en taalkeuzelinks gebruiken `translate="no"`; de pagina’s hebben ook `google=notranslate`. Zo worden de eigen volledige vertalingen niet nogmaals automatisch vertaald door de browser. Taalcodes blijven letterlijk NL, FR en EN (het Franse woord “en” mag niet door browservertaling “in” worden). Er wordt geen extra taalomleiding toegevoegd; de gekozen taal blijft bepaald door de URL. De precieze melding van het terugspringen wordt nog met de gebruiker gecontroleerd.
+Controleer voor publicatie alle 135 routes, lokale assets, interne taalverwijzingen, herhaalbaarheid van de generator, responsive weergave en vaste navigatie. Test daarnaast productopties, winkelmandje, btw, prijscalculator, aanvraagformulier en besteloverzicht. Publiceer uitsluitend naar de bevestigde private test-Site. Maak daarna volgens `AGENTS.md` een volledige afzonderlijke GitHub-back-up en vergelijk alle bestanden opnieuw met SHA-256.

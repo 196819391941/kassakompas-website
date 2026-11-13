@@ -1,0 +1,227 @@
+{
+  "index.html": {
+    "nl": "/",
+    "fr": "/fr/",
+    "en": "/en/"
+  },
+  "horeca.html": {
+    "nl": "/horeca.html",
+    "fr": "/fr/horeca/",
+    "en": "/en/hospitality/"
+  },
+  "retail.html": {
+    "nl": "/retail.html",
+    "fr": "/fr/commerce/",
+    "en": "/en/retail/"
+  },
+  "koppelingen.html": {
+    "nl": "/koppelingen.html",
+    "fr": "/fr/logiciels-integrations/",
+    "en": "/en/software-integrations/"
+  },
+  "prijzen/index.html": {
+    "nl": "/prijzen/",
+    "fr": "/fr/tarifs/",
+    "en": "/en/pricing/"
+  },
+  "contact/index.html": {
+    "nl": "/contact/",
+    "fr": "/fr/contact/",
+    "en": "/en/contact/"
+  },
+  "over-ons/index.html": {
+    "nl": "/over-ons/",
+    "fr": "/fr/qui-sommes-nous/",
+    "en": "/en/about-us/"
+  },
+  "horeca/restaurants/index.html": {
+    "nl": "/horeca/restaurants/",
+    "fr": "/fr/horeca/restaurants/",
+    "en": "/en/hospitality/restaurants/"
+  },
+  "horeca/fastfood/index.html": {
+    "nl": "/horeca/fastfood/",
+    "fr": "/fr/horeca/snacks-friteries/",
+    "en": "/en/hospitality/fast-food/"
+  },
+  "horeca/hotels/index.html": {
+    "nl": "/horeca/hotels/",
+    "fr": "/fr/horeca/hotels/",
+    "en": "/en/hospitality/hotels/"
+  },
+  "horeca/koffiebars/index.html": {
+    "nl": "/horeca/koffiebars/",
+    "fr": "/fr/horeca/cafes/",
+    "en": "/en/hospitality/coffee-shops/"
+  },
+  "horeca/bars-clubs/index.html": {
+    "nl": "/horeca/bars-clubs/",
+    "fr": "/fr/horeca/bars-clubs/",
+    "en": "/en/hospitality/bars-clubs/"
+  },
+  "horeca/pretparken/index.html": {
+    "nl": "/horeca/pretparken/",
+    "fr": "/fr/horeca/parcs-attractions/",
+    "en": "/en/hospitality/theme-parks/"
+  },
+  "retail/bakkerijen/index.html": {
+    "nl": "/retail/bakkerijen/",
+    "fr": "/fr/commerce/boulangeries/",
+    "en": "/en/retail/bakeries/"
+  },
+  "retail/biowinkels/index.html": {
+    "nl": "/retail/biowinkels/",
+    "fr": "/fr/commerce/magasins-bio/",
+    "en": "/en/retail/organic-shops/"
+  },
+  "retail/supermarkten/index.html": {
+    "nl": "/retail/supermarkten/",
+    "fr": "/fr/commerce/supermarches/",
+    "en": "/en/retail/supermarkets/"
+  },
+  "retail/juweliers/index.html": {
+    "nl": "/retail/juweliers/",
+    "fr": "/fr/commerce/bijouteries/",
+    "en": "/en/retail/jewellers/"
+  },
+  "retail/slagerijen-viswinkels/index.html": {
+    "nl": "/retail/slagerijen-viswinkels/",
+    "fr": "/fr/commerce/boucheries-poissonneries/",
+    "en": "/en/retail/butchers-fishmongers/"
+  },
+  "retail/kleding/index.html": {
+    "nl": "/retail/kleding/",
+    "fr": "/fr/commerce/mode/",
+    "en": "/en/retail/fashion/"
+  },
+  "retail/kapsalons-wellness/index.html": {
+    "nl": "/retail/kapsalons-wellness/",
+    "fr": "/fr/commerce/salons-coiffure-beaute/",
+    "en": "/en/retail/hair-beauty/"
+  },
+  "koppelingen/boekhouding/index.html": {
+    "nl": "/koppelingen/boekhouding/",
+    "fr": "/fr/integrations/comptabilite/",
+    "en": "/en/integrations/accounting/"
+  },
+  "koppelingen/betaaloplossingen/index.html": {
+    "nl": "/koppelingen/betaaloplossingen/",
+    "fr": "/fr/integrations/paiements/",
+    "en": "/en/integrations/payments/"
+  },
+  "koppelingen/mobiel-bestellen/index.html": {
+    "nl": "/koppelingen/mobiel-bestellen/",
+    "fr": "/fr/integrations/commande-mobile/",
+    "en": "/en/integrations/mobile-ordering/"
+  },
+  "koppelingen/webshop/index.html": {
+    "nl": "/koppelingen/webshop/",
+    "fr": "/fr/integrations/boutique-en-ligne/",
+    "en": "/en/integrations/webshop/"
+  },
+  "shop/afrekenen/index.html": {
+    "nl": "/shop/afrekenen/",
+    "fr": "/fr/boutique/commande/",
+    "en": "/en/shop/checkout/"
+  },
+  "shop/dibal-dpos400/index.html": {
+    "nl": "/shop/dibal-dpos400/",
+    "fr": "/fr/boutique/dibal-dpos400/",
+    "en": "/en/shop/dibal-dpos400/"
+  },
+  "shop/epson-bonprinter/index.html": {
+    "nl": "/shop/epson-bonprinter/",
+    "fr": "/fr/boutique/epson-bonprinter/",
+    "en": "/en/shop/epson-bonprinter/"
+  },
+  "shop/extra-kassalicentie/index.html": {
+    "nl": "/shop/extra-kassalicentie/",
+    "fr": "/fr/boutique/extra-kassalicentie/",
+    "en": "/en/shop/extra-kassalicentie/"
+  },
+  "shop/geldlade/index.html": {
+    "nl": "/shop/geldlade/",
+    "fr": "/fr/boutique/geldlade/",
+    "en": "/en/shop/geldlade/"
+  },
+  "shop/hapos-compleet/index.html": {
+    "nl": "/shop/hapos-compleet/",
+    "fr": "/fr/shop/caisse-hapos-complete/",
+    "en": "/en/shop/complete-hapos-pos/"
+  },
+  "shop/huur-kassabundel/index.html": {
+    "nl": "/shop/huur-kassabundel/",
+    "fr": "/fr/boutique/huur-kassabundel/",
+    "en": "/en/shop/huur-kassabundel/"
+  },
+  "shop/index.html": {
+    "nl": "/shop/",
+    "fr": "/fr/boutique/",
+    "en": "/en/shop/"
+  },
+  "shop/installatie/index.html": {
+    "nl": "/shop/installatie/",
+    "fr": "/fr/boutique/installatie/",
+    "en": "/en/shop/installatie/"
+  },
+  "shop/kassabundel/index.html": {
+    "nl": "/shop/kassabundel/",
+    "fr": "/fr/boutique/kassabundel/",
+    "en": "/en/shop/kassabundel/"
+  },
+  "shop/kassarollen/index.html": {
+    "nl": "/shop/kassarollen/",
+    "fr": "/fr/boutique/kassarollen/",
+    "en": "/en/shop/kassarollen/"
+  },
+  "shop/labelprinter/index.html": {
+    "nl": "/shop/labelprinter/",
+    "fr": "/fr/boutique/labelprinter/",
+    "en": "/en/shop/labelprinter/"
+  },
+  "shop/lifetime-licentie/index.html": {
+    "nl": "/shop/lifetime-licentie/",
+    "fr": "/fr/boutique/lifetime-licentie/",
+    "en": "/en/shop/lifetime-licentie/"
+  },
+  "shop/los-touchscreen/index.html": {
+    "nl": "/shop/los-touchscreen/",
+    "fr": "/fr/boutique/los-touchscreen/",
+    "en": "/en/shop/los-touchscreen/"
+  },
+  "shop/pax-a77/index.html": {
+    "nl": "/shop/pax-a77/",
+    "fr": "/fr/boutique/pax-a77/",
+    "en": "/en/shop/pax-a77/"
+  },
+  "shop/premium-kassabundel/index.html": {
+    "nl": "/shop/premium-kassabundel/",
+    "fr": "/fr/boutique/premium-kassabundel/",
+    "en": "/en/shop/premium-kassabundel/"
+  },
+  "shop/retail-jaarlicentie/index.html": {
+    "nl": "/shop/retail-jaarlicentie/",
+    "fr": "/fr/boutique/retail-jaarlicentie/",
+    "en": "/en/shop/retail-jaarlicentie/"
+  },
+  "shop/retail-maandlicentie/index.html": {
+    "nl": "/shop/retail-maandlicentie/",
+    "fr": "/fr/boutique/retail-maandlicentie/",
+    "en": "/en/shop/retail-maandlicentie/"
+  },
+  "shop/touchscreen-klantendisplay/index.html": {
+    "nl": "/shop/touchscreen-klantendisplay/",
+    "fr": "/fr/boutique/touchscreen-klantendisplay/",
+    "en": "/en/shop/touchscreen-klantendisplay/"
+  },
+  "shop/touchscreen-slim-lcd/index.html": {
+    "nl": "/shop/touchscreen-slim-lcd/",
+    "fr": "/fr/boutique/touchscreen-slim-lcd/",
+    "en": "/en/shop/touchscreen-slim-lcd/"
+  },
+  "shop/winkelmandje/index.html": {
+    "nl": "/shop/winkelmandje/",
+    "fr": "/fr/boutique/panier/",
+    "en": "/en/shop/basket/"
+  }
+}
