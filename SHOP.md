@@ -77,3 +77,5 @@ Laatste detail: bundelbijschrift “Software” zonder “inbegrepen”; prijsbl
 Extra afwerking: grote LCD-klantenschermen krijgen circa anderhalf keer de beeldhoogte van de gewone klantendisplays, ook mobiel en op detailpagina’s. Geldlade, kassarollen en weegschaal in het overzicht circa 15% groter; overige productbeelden en prijzen behouden.
 
 Prijsaanpassing: losse lifetime kassalicentie voor retail of horeca van €1.400 naar €1.495 excl. btw. Overzicht, detailpagina, toelichtingen, catalogus en winkelmandberekening bijgewerkt. Hardwarebundels en maandelijkse blackboxverzekering ongewijzigd.
+
+Laatste afwerking: Complete HAPOS-kassa krijgt hetzelfde prijsaccent met ster als de huurbundel, in overzicht en op productpagina. Labelprinter optisch gelijkgetrokken met de bonprinter door het verschil in afbeeldingsverhouding op te vangen. Prijzen en uitlijning behouden.

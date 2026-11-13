@@ -1,8 +1,8 @@
-# KassaKompas — gepubliceerde privétest versie 6
+# KassaKompas — gepubliceerde privétest versie 7
 
 URL: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site/shop/
-Publicatie geslaagd op 13 november 2026 om 18:28 Belgische tijd. Broncommit: b03bb44fea2386054c30f3233f26d3057dfe00cd. Deployment: appgdep_6af748aa787c81919db81e7f9a12720f.
+Publicatie geslaagd op 13 november 2026. Broncommit: d12a1f7eb25aad6aa9727cfe3ce5e2a898726875. Deployment: appgdep_6af74c2306ac8191a06f3234a0d49828.
 
-Volledige bron, 187 bestanden. Bevat duidelijk grotere LCD-klantenschermen, iets grotere lade/rollen/weegschaal en de losse lifetime kassalicentie voor retail of horeca aan €1.495 exclusief btw. Overzicht, detail, toelichting en winkelmandberekening bijgewerkt. Retail winkelmand €1.808,95 inclusief 21% btw gecontroleerd. Alle andere productprijzen en bestaande product-ID’s behouden; responsive controle geslaagd.
+Volledige bron, 187 bestanden. Complete HAPOS-kassa heeft nu hetzelfde prijsaccent met ster als de huurbundel, zowel op de overzichtskaart als op de productpagina. Labelprinter optisch even breed als de bonprinter. Prijzen en uitlijning behouden. Responsief gecontroleerd op 1440, 768, 390 en 320 px.
 
-Hostingconfiguratie hoort bij het privétestproject. Oorspronkelijke openbare website, URL en publicatie niet gewijzigd. BACKUP-SHA256.json bevat SHA-256 van alle bronbestanden. De twee BACKUP-bestanden zijn aanvullende metadata. GitHub-main en publicatie-instellingen blijven intact.
+De hostingconfiguratie hoort bij het bestaande privétestproject. De oorspronkelijke openbare KassaKompas-URL en publicatie zijn niet gewijzigd. BACKUP-SHA256.json bevat controlesommen van alle bronbestanden. Twee BACKUP-bestanden zijn aanvullende metadata. GitHub-main en publicatie-instellingen blijven intact.
