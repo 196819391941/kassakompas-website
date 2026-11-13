@@ -65,3 +65,5 @@ Correctie op expliciet verzoek: het all-in-one hardwaremodel is NIET gegenereerd
 Shopintro uitgebreid met originele commerciële tekst over retail of horeca, kopen of huren, hardware en ondersteuning.
 
 Shopafwerking: commerciële introductie met betaalbaarheid, huur vanaf €85 excl. btw; printer, weegschaal, rollen en lade kleiner in overzicht, grote beelden behouden bij doorklikken. Weegschaal opnieuw vrijstaand op transparantie; andere drie bestaande beelden al transparant. Volwaardige POS-kassa’s meer nadruk dan compact all-in-one model.
+
+Extra afwerking: accessoires verder verkleind (max. 125 px desktop / 85 px mobiel), grotere HAPOS-hardware, weegschaal opnieuw uitgesneden zonder vloer- of contactschaduw. Losse huurbadge verwijderd, ingetogen steraccent bij de bestaande huurprijs, ook op de detailpagina.
