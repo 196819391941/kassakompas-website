@@ -79,3 +79,5 @@ Extra afwerking: grote LCD-klantenschermen krijgen circa anderhalf keer de beeld
 Prijsaanpassing: losse lifetime kassalicentie voor retail of horeca van €1.400 naar €1.495 excl. btw. Overzicht, detailpagina, toelichtingen, catalogus en winkelmandberekening bijgewerkt. Hardwarebundels en maandelijkse blackboxverzekering ongewijzigd.
 
 Laatste afwerking: Complete HAPOS-kassa krijgt hetzelfde prijsaccent met ster als de huurbundel, in overzicht en op productpagina. Labelprinter optisch gelijkgetrokken met de bonprinter door het verschil in afbeeldingsverhouding op te vangen. Prijzen en uitlijning behouden.
+
+Taalproef: Nederlandse, Franse en Engelse homepage en Complete HAPOS-productpagina. Gewone taalkeuzelinks rechtsboven, behoud van pagina/anker en productselecties; overige pagina’s voorlopig Nederlands, zoals gemeld in de proef. Catalogus en prijzen ongewijzigd. Zie I18N-PILOT.md.
