@@ -75,3 +75,5 @@ Werkende privétest — Shopafwerking 13 november 2026: bovenste bonprinter en b
 Laatste detail: bundelbijschrift “Software” zonder “inbegrepen”; prijsblokken per rij gelijk uitgelijnd, inclusief het steraccent bij de huurprijs.
 
 Extra afwerking: grote LCD-klantenschermen krijgen circa anderhalf keer de beeldhoogte van de gewone klantendisplays, ook mobiel en op detailpagina’s. Geldlade, kassarollen en weegschaal in het overzicht circa 15% groter; overige productbeelden en prijzen behouden.
+
+Prijsaanpassing: losse lifetime kassalicentie voor retail of horeca van €1.400 naar €1.495 excl. btw. Overzicht, detailpagina, toelichtingen, catalogus en winkelmandberekening bijgewerkt. Hardwarebundels en maandelijkse blackboxverzekering ongewijzigd.

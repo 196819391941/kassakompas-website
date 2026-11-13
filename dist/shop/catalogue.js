@@ -40,7 +40,7 @@ export const products = [
     "summary": "Eén keer investeren in je kassalicentie. Kies de uitvoering voor je winkel of horecazaak.",
     "features": [
       "Keuze uit retail of horeca",
-      "Eenmalige licentieprijs van €1.400",
+      "Eenmalige licentieprijs van €1.495",
       "Blackbox inbegrepen bij de horeca-uitvoering",
       "Losse hardware niet inbegrepen"
     ],
@@ -48,7 +48,7 @@ export const products = [
       {
         "id": "retail",
         "label": "Retail",
-        "once": 140000,
+        "once": 149500,
         "month": 0,
         "year": 0,
         "notes": ""
@@ -56,7 +56,7 @@ export const products = [
       {
         "id": "horeca",
         "label": "Horeca — inclusief blackbox",
-        "once": 140000,
+        "once": 149500,
         "month": 1000,
         "year": 0,
         "notes": "Blackbox inbegrepen, gekoppeld aan €10 per maand lifetime garantie / blackboxverzekering."
