@@ -1,11 +1,11 @@
 # KassaKompas — volledige back-up van de testsite
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 12
-- Gepubliceerde broncommit: `685eac81f1822f52c9d6d30b5a1475991a7afd02`
-- Deployment: `appgdep_6b05ced616f881919ef36f3f6c2e3da4` (geslaagd).
-- Inhoud: 289 bronbestanden, waaronder alle 135 klantenroutes (45 per taal), afbeeldingen, vertalingen, scripts en hostingconfiguratie.
+- Sites-versie: 13
+- Gepubliceerde broncommit: `cd28c4b6cd1a707e74c5d30d4df84d8a652031e9`
+- Deployment: `appgdep_6b05d06fe7b48191b1e8e12b416c871e` (geslaagd).
+- 289 bronbestanden, met alle 135 klantenroutes, afbeeldingen, vertalingen, scripts en hostingconfiguratie.
 
-De POS-foto’s, accessoires, scheidingslijnen en prijsbalken zijn uitgelijnd in het productoverzicht. De bestaande producten, prijzen en vormgeving zijn behouden. In de browser zijn zes schermbreedtes in Nederlands, Frans en Engels gecontroleerd. De statische controle van routes, assets, taalverwijzingen en herhaalbaarheid van de build is geslaagd.
+De twee losse touchscreenopstellingen zijn in het productoverzicht lager geplaatst. De positie is in Nederlands, Frans en Engels op desktop en gsm gecontroleerd. De statische controle van routes, assets en vertalingen is geslaagd.
 
-`BACKUP-SHA256.json` bevat de SHA-256 van alle gepubliceerde bronbestanden.
+`BACKUP-SHA256.json` bevat de SHA-256 van alle bronbestanden.
