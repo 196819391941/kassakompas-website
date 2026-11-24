@@ -1,8 +1,8 @@
-# KassaKompas — back-up van de testsite
+# KassaKompas — volledige testsiteback-up
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 14
-- Broncommit: 0fae4b5118df88c02f66dde70c8c57ac85576c12
-- Geslaagde deployment: appgdep_6b05d793243481918ff759338ffddd41
+- Sites-versie: 15
+- Gepubliceerde broncommit: 4ac7b3432fcf56724019916d4163b02167059ba4
+- Deployment: appgdep_6b05f90186a8819186d7a05cdc18ac3e
 
-De homepagefoto van de DISH-kassa wordt in de drie taalversies getoond in de originele stand. De originele PNG is behouden. De SHA-256-manifest bevat alle 289 bronbestanden.
+De all-in-one touchscreenkassa toont een scherpere foto van hetzelfde toestel (747 × 520), met opnieuw uitgelijnde scherminterface. Gecontroleerd in de shop en op de productpagina in drie talen, op desktop en gsm. Het SHA-256-manifest bevat alle 290 bronbestanden.
