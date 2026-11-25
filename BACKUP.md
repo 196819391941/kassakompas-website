@@ -1,8 +1,8 @@
 # KassaKompas — volledige testsiteback-up
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 16
-- Gepubliceerde broncommit: 5a7377b4d8ed4d6498eae8510b7938b5dca0e19a
-- Deployment: appgdep_6b05f9e89ca08191909bd1047120ec81
+- Sites-versie: 17
+- Gepubliceerde broncommit: 6fc728d59e5f9f6308db5c91285a833bd97c5c69
+- Deployment: appgdep_6b06a7edc1b48191b2e9a40769cd860c
 
-Randen van de all-in-one touchscreenkassa en de schermweergave zijn verzacht. Het SHA-256-manifest bevat alle 290 bronbestanden.
+De link naar mobiel bestellen op de horecapagina gebruikt in alle drie talen de bestaande lichte knop met donkerblauwe tekst. Het SHA-256-manifest bevat alle 290 bronbestanden.
