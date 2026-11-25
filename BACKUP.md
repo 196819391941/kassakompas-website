@@ -1,8 +1,8 @@
 # KassaKompas — volledige testsiteback-up
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 18
-- Gepubliceerde broncommit: 9604f40f0ae76e6f2b3022eec0256fcaec71b36b
-- Deployment: appgdep_6b06aa682acc81918443cee0748b2d08
+- Sites-versie: 19
+- Gepubliceerde broncommit: 695193bcea1300ecefa6ad53e64709f60b699d83
+- Deployment: appgdep_6b06af5af86081919599468875614be4
 
-De homepage bevat direct onder de sectortegels een bestelzuildemo met geoptimaliseerd stilstaand beeld. De video van 35,6 seconden laadt en speelt af na een klik. Plaatsing en afspelen zijn op desktop en gsm gecontroleerd in Nederlands, Frans en Engels. Het SHA-256-manifest omvat alle 292 bronbestanden, inclusief de video.
+De Vectron POS 8-demo laadt pas na een klik op de knop onder de bestaande foto op de Retail-pagina. De geluidloze video duurt 33 seconden. Plaatsing, afspelen en pauzeren bij sluiten zijn in de drie talen gecontroleerd op desktop en gsm. Het SHA-256-manifest bevat alle 293 bronbestanden, met beide video's.
