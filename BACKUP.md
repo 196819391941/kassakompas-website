@@ -1,8 +1,8 @@
 # KassaKompas — volledige testsiteback-up
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 17
-- Gepubliceerde broncommit: 6fc728d59e5f9f6308db5c91285a833bd97c5c69
-- Deployment: appgdep_6b06a7edc1b48191b2e9a40769cd860c
+- Sites-versie: 18
+- Gepubliceerde broncommit: 9604f40f0ae76e6f2b3022eec0256fcaec71b36b
+- Deployment: appgdep_6b06aa682acc81918443cee0748b2d08
 
-De link naar mobiel bestellen op de horecapagina gebruikt in alle drie talen de bestaande lichte knop met donkerblauwe tekst. Het SHA-256-manifest bevat alle 290 bronbestanden.
+De homepage bevat direct onder de sectortegels een bestelzuildemo met geoptimaliseerd stilstaand beeld. De video van 35,6 seconden laadt en speelt af na een klik. Plaatsing en afspelen zijn op desktop en gsm gecontroleerd in Nederlands, Frans en Engels. Het SHA-256-manifest omvat alle 292 bronbestanden, inclusief de video.
