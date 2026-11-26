@@ -220,13 +220,19 @@
       margin-top:0;
     }
     & > .bundle-display{
+      position:relative;
+      container-type:inline-size;
       grid-template-rows:1fr;
     }
     & > .bundle-display > .bundle-main{
+      position:absolute;
+      inset-inline:0;
+      margin-inline:auto;
+      /* Center the main silhouette. The customer display sits below it. */
+      top:calc(50% - min(40.7cqw, 122.1px));
       display:flex;
       flex-direction:column;
       align-items:center;
-      align-self:center;
       height:auto;
     }
     & .bundle-main > .register-stage{
@@ -235,6 +241,14 @@
     }
     & .bundle-main > .customer-display-view{
       position:static;
+      margin-top:-8px;
     }
+    & .customer-display-view .bundle-rear-screen{
+      height:48px!important;
+    }
+  }
+  /* Match the POS's visible top edge to the centered software boxes in row three. */
+  .product-grid:not(:has(>.product-card[hidden])) > .product-card:nth-child(9) > .product-image > .bundle-display > .bundle-main{
+    top:calc(50% - min(49.7cqw, 149.1px));
   }
 }
