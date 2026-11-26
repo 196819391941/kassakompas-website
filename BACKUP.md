@@ -1,8 +1,8 @@
-# KassaKompas — volledige testsiteback-up
+# KassaKompas — back-up van de testsite
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 20
-- Gepubliceerde broncommit: 8a68f0d5acf0fd93f1cf950887cc2fb994af1f58
-- Deployment: appgdep_6b06b29d94508191827ed47e08c9959b
+- Sites-versie: 21
+- Broncommit: 80bed8250388054904d0dba7cafa7513ffdc9379
+- Deployment: appgdep_6b08b11fd968819186408db0596a7992
 
-De bestaande Vectron POS 8-demoknop op de drie Retail-pagina’s laadt de geluidloze video met de openingszin ‘Gebouwd voor drukke momenten.’ Het SHA-256-manifest omvat alle 293 bronbestanden, inclusief beide video’s.
+De geluidloze DISH-instapkassademo staat op de Horeca-pagina in Nederlands, Frans en Engels. De video van 29 seconden laadt pas na een klik. Gecontroleerd op desktop en gsm. Het SHA-256-manifest bevat alle 295 bronbestanden.
