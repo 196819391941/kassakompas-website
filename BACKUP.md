@@ -1,8 +1,8 @@
-# KassaKompas — back-up van de testsite
+# KassaKompas — volledige testsiteback-up
 
 - Site: https://kassakompas-publicatietest-20261113.bluishcity.chatgpt.site
-- Sites-versie: 21
-- Broncommit: 80bed8250388054904d0dba7cafa7513ffdc9379
-- Deployment: appgdep_6b08b11fd968819186408db0596a7992
+- Versie: 22
+- Broncommit: 980e42424f24fd29590fcbc41238f90ec4cb6d41
+- Deployment: appgdep_6b08b89bae3c8191a0230b47965c24fa
 
-De geluidloze DISH-instapkassademo staat op de Horeca-pagina in Nederlands, Frans en Engels. De video van 29 seconden laadt pas na een klik. Gecontroleerd op desktop en gsm. Het SHA-256-manifest bevat alle 295 bronbestanden.
+Softwaredozen zijn op gsm uitgelijnd met de POS-foto in gemengde rijen. Het SHA-256-manifest bevat alle 295 bronbestanden.

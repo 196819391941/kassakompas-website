@@ -142,3 +142,13 @@
 .product-grid .product-card[data-category="Touchscreens"] .product-image>.bundle-display>.bundle-main{
   transform:translateY(clamp(1.5rem,4vw,2.5rem))
 }
+
+/* Align software with the register in mixed two-column rows on phones. */
+@media (350px < width <= 560px){
+  .product-grid > .product-card[data-category="Licenties"]:nth-child(odd of .product-card:not([hidden])):has(+ .product-card:not([hidden])[data-category="Kassasystemen"]) > .product-image > .software-box,
+  .product-grid > .product-card[data-category="Kassasystemen"]:nth-child(odd of .product-card:not([hidden])) + .product-card:not([hidden])[data-category="Licenties"] > .product-image > .software-box{
+    align-self:flex-start;
+    height:auto;
+    aspect-ratio:1879/1499;
+  }
+}
