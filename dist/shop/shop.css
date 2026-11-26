@@ -143,13 +143,18 @@
   transform:translateY(clamp(1.5rem,4vw,2.5rem))
 }
 
-/* Align software with the register in mixed two-column rows on phones. */
+/* Use the same viewing height for standalone images beside a POS. */
 @media (350px < width <= 560px){
-  .product-grid > .product-card[data-category="Licenties"]:nth-child(odd of .product-card:not([hidden])):has(+ .product-card:not([hidden])[data-category="Kassasystemen"]) > .product-image > .software-box,
-  .product-grid > .product-card[data-category="Kassasystemen"]:nth-child(odd of .product-card:not([hidden])) + .product-card:not([hidden])[data-category="Licenties"] > .product-image > .software-box{
+  .product-grid > .product-card:nth-child(odd of .product-card:not([hidden])):has(+ .product-card:not([hidden]):is([data-category="Kassasystemen"],[data-category="Touchscreens"])) > .product-image > img,
+  .product-grid > .product-card:is([data-category="Kassasystemen"],[data-category="Touchscreens"]):nth-child(odd of .product-card:not([hidden])) + .product-card:not([hidden]) > .product-image > img{
     align-self:flex-start;
-    height:auto;
-    aspect-ratio:1879/1499;
+    height:112px;
+    max-height:none;
+    margin:0;
+  }
+  .product-grid .product-image>.all-in-one-stage{
+    align-self:flex-start;
+    margin-top:6px;
   }
 }
 

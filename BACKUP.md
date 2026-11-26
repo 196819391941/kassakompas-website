@@ -1,5 +1,5 @@
 # KassaKompas — testsiteback-up
 
-Versie 25, broncommit 13342eaeded9cf608e25c869b4df2cbd42dd1bab, deployment appgdep_6b08bf4d3e148191ba1cb363155b0dfb.
+Broncommit 6544a05b621cd5cb68aa7ee8316acc6bc4cedcd5, deployment appgdep_6b08c188440481918459e88b4cb4df51.
 
-Beeldvakken op gsm zijn 296 px hoog. Klantendisplays staan dichter bij hun POS-scherm.
+Mobiele uitlijning van POS-productfoto’s en klantendisplays.
