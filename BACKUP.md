@@ -1,5 +1,5 @@
 # KassaKompas — testsiteback-up
 
-Broncommit 9956e61bceafc0a1a1acf47f0db80cfa06d9de44.
+Broncommit b047899e7991cb50f5650eceaeb33c9ea3640bc5.
 
-Compactere, verticaal uitgebalanceerde productvakken op desktop en gsm.
+Productfoto’s verticaal gecentreerd in rij 3 en 4 op desktop.
