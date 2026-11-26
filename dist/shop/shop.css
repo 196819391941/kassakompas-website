@@ -152,3 +152,25 @@
     aspect-ratio:1879/1499;
   }
 }
+
+@media(max-width:560px){
+  .product-grid .product-image{height:333px;padding:22px 9px 12px}
+  .product-grid .product-image>.bundle-display{grid-template-rows:minmax(0,1fr) 4.75rem}
+  .product-grid .product-image>.bundle-display>.bundle-main{
+    display:flex;flex-direction:column;align-items:center;gap:5px;
+    max-width:175px;transform:none
+  }
+  .product-grid .product-image .bundle-main>.register-stage{
+    flex:none;order:-1;width:100%;margin:0
+  }
+  .product-grid .product-image .bundle-main>.customer-display-view{
+    position:static;width:45%;max-width:85px
+  }
+  .product-grid .product-image .bundle-main>.customer-display-view.large{width:55%;max-width:105px}
+  .product-grid .product-image .customer-display-view .bundle-rear-screen{height:40px!important}
+  .product-grid .product-image .customer-display-view.large .bundle-rear-screen{height:52px!important}
+  .product-grid .product-image>.software-box{max-width:205px}
+}
+@media(max-width:560px){
+  .product-grid .product-card[data-category="Touchscreens"] .product-image>.bundle-display>.bundle-main{transform:none}
+}
