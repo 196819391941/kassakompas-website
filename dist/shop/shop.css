@@ -152,6 +152,12 @@
     max-height:none;
     margin:0;
   }
+  /* Account for the transparent border in the licence artwork. */
+  .product-grid > .product-card:nth-child(odd of .product-card:not([hidden])):has(+ .product-card:not([hidden]):is([data-category="Kassasystemen"],[data-category="Touchscreens"])) > .product-image > .software-box,
+  .product-grid > .product-card:is([data-category="Kassasystemen"],[data-category="Touchscreens"]):nth-child(odd of .product-card:not([hidden])) + .product-card:not([hidden]) > .product-image > .software-box{
+    object-position:center top;
+    margin-top:clamp(7px,2.2vw,13px);
+  }
   .product-grid .product-image>.all-in-one-stage{
     align-self:flex-start;
     margin-top:6px;
@@ -180,4 +186,19 @@
 }
 @media(max-width:560px){
   .product-grid .product-card[data-category="Touchscreens"] .product-image>.bundle-display>.bundle-main{transform:none}
+}
+
+@media(min-width:561px){
+  .product-grid .product-image>.software-box{
+    object-position:center top;
+    padding-top:4%;
+  }
+  .product-grid .product-card[data-category="Touchscreens"] .product-image>.bundle-display>.bundle-main{
+    transform:none;
+  }
+  .product-grid .product-image>.all-in-one-stage,
+  .product-grid .product-image>img[src*="epson-bonprinter-scherp"]{
+    align-self:flex-start;
+    margin-top:8%;
+  }
 }
