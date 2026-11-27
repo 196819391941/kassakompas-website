@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit a8becd58bc80ba3221438b5f472359c30f77b716.
+Broncommit 47ff3116d5abe22ad8075fc46240311bbb682dc2.
 
-Gedeelde kopbalk en mobiel menu in drie talen.
+Herkenbaar menu-icoon voor de mobiele navigatie in drie talen.

@@ -31,7 +31,10 @@ if (header && primary && languages) {
     const toggle = document.createElement('button');
     toggle.type = 'button';
     toggle.className = 'site-header-toggle';
-    toggle.textContent = menu;
+    const icon = document.createElement('span');
+    icon.setAttribute('aria-hidden', 'true');
+    icon.textContent = '☰';
+    toggle.append(icon, ' ', menu);
     toggle.setAttribute('aria-controls', 'site-header-navigation');
     toggle.setAttribute('aria-expanded', 'false');
 

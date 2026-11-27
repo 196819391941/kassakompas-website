@@ -126,3 +126,6 @@
   .site-header-brand{font-size:18px}
   .site-header-mark{width:26px;height:26px}
 }
+@media(max-width:360px){
+  .site-header-toggle{padding-inline:6px}
+}
