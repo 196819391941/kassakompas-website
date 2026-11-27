@@ -257,8 +257,10 @@
 }
 
 .hero-price > small > b,
-.featured-price > span > b{
+.featured-price > span > b,
+.shop-one-off{
   color:#005bd7;
+  font-weight:700;
 }
 
 /* Show screen artwork only after the photo and its screen geometry are ready. */

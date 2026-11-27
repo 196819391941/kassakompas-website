@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 2e85cc0ac2d186a0b7f54754133820725313a6b7.
+Broncommit 5c5dbacfce3fc310198599c489032268fac45717.
 
-Voorkomt een flits van het kassascherm tijdens het laden van de Shop.
+Eenmalige kosten in de Shop aangeduid in vet en felblauw in drie talen.
