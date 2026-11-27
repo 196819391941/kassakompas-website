@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit a5c7773bd53f5697f6ecee0dd9b32315c01bbf5a.
+Broncommit a0d946fe1874353ffdfc7052e1e71de2b2b93622.
 
-Originele 1080 × 1440-videostream zonder geluid voor Horeca.
+Kassafoto in de kaart voor eenmalige aankoop op de Prijzen-pagina in drie talen.
