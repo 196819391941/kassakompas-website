@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 5a50e0a881b7d06ea22ed515bcbc94d5a7b8eddc.
+Broncommit 11a44c311ff6a41f627560c8f55975d54d288f75.
 
-Vet prijslabel voor eenmalige aankoop in de shop in drie talen.
+Helderblauwe aankooplabels in de shop in drie talen.

@@ -255,3 +255,8 @@
     top:calc(50% - min(49.7cqw, 149.1px));
   }
 }
+
+.hero-price > small > b,
+.featured-price > span > b{
+  color:#005bd7;
+}
