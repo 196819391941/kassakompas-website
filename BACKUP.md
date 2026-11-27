@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit ee2ed71e51572e1c7124883307fb018db8d9d223.
+Broncommit a5c7773bd53f5697f6ecee0dd9b32315c01bbf5a.
 
-Volledige versie met de geluidloze horecavideo in alle drie taalversies.
+Originele 1080 × 1440-videostream zonder geluid voor Horeca.
