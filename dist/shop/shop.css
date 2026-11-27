@@ -260,3 +260,6 @@
 .featured-price > span > b{
   color:#005bd7;
 }
+
+/* Show screen artwork only after the photo and its screen geometry are ready. */
+.register-stage:not(.register-ready) :is(.register-display,.screen-seam-underlay){visibility:hidden}

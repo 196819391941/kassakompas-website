@@ -55,6 +55,24 @@ if(checkoutForm){checkoutForm.querySelectorAll('[name="delivery"]').forEach(x=>x
  const link=document.createElement('a');link.href='mailto:sales@kassakompas.com?subject='+encodeURIComponent(t('Bestelaanvraag shop — ') +String(d.get('company')).slice(0,100))+'&body='+encodeURIComponent(body);link.target='_blank';link.rel='noopener';document.body.append(link);link.click();link.remove();
  });}
 // Reuse the exact approved register geometry in catalogue, details and cart.
-function fitRegister(stage){const [a,b,c,d,e,f,g,h]=JSON.parse(stage.dataset.screenMap);const scale=stage.getBoundingClientRect().width/Number(stage.dataset.photoWidth);stage.querySelector('.register-display').style.transform='matrix3d('+[a*scale,d*scale,0,g,b*scale,e*scale,0,h,0,0,1,0,c*scale,f*scale,0,1].join(',')+')';}
-function initRegisterScreens(scope=document){const stages=[...scope.querySelectorAll('[data-screen-map]')];stages.forEach(fitRegister);if('ResizeObserver'in window){if(!initRegisterScreens.observer)initRegisterScreens.observer=new ResizeObserver(entries=>entries.forEach(e=>fitRegister(e.target)));stages.forEach(s=>initRegisterScreens.observer.observe(s));}}
+function fitRegister(stage){
+ const [a,b,c,d,e,f,g,h]=JSON.parse(stage.dataset.screenMap);
+ const scale=stage.getBoundingClientRect().width/Number(stage.dataset.photoWidth);
+ const screen=stage.querySelector('.register-display');
+ const hardware=stage.querySelector('.register-hardware');
+ screen.style.transform='matrix3d('+[a*scale,d*scale,0,g,b*scale,e*scale,0,h,0,0,1,0,c*scale,f*scale,0,1].join(',')+')';
+ stage.classList.toggle('register-ready',scale>0&&hardware.complete&&hardware.naturalWidth>0);
+}
+function initRegisterScreens(scope=document){
+ const stages=[...scope.querySelectorAll('[data-screen-map]')];
+ for(const stage of stages){
+  const hardware=stage.querySelector('.register-hardware');
+  if(!hardware.complete)hardware.addEventListener('load',()=>fitRegister(stage),{once:true});
+  fitRegister(stage);
+ }
+ if('ResizeObserver'in window){
+  if(!initRegisterScreens.observer)initRegisterScreens.observer=new ResizeObserver(entries=>entries.forEach(e=>fitRegister(e.target)));
+  stages.forEach(stage=>initRegisterScreens.observer.observe(stage));
+ }
+}
 initRegisterScreens();

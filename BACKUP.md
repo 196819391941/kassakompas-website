@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 47ff3116d5abe22ad8075fc46240311bbb682dc2.
+Broncommit 2e85cc0ac2d186a0b7f54754133820725313a6b7.
 
-Herkenbaar menu-icoon voor de mobiele navigatie in drie talen.
+Voorkomt een flits van het kassascherm tijdens het laden van de Shop.
