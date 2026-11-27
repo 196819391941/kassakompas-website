@@ -1,5 +1,5 @@
 # KassaKompas — testsiteback-up
 
-Broncommit 10579a8816c89917b9fe91485983d34091d22cb9.
+Broncommit 6137bd8af480defd39d4a573cb02a495a55d3f9a.
 
-Bovenranden gelijk in desktoprij 3 en hoofdproducten gecentreerd in desktoprij 4.
+Epson-bonprinter centraal uitgelijnd in desktoprij 4.

@@ -219,6 +219,9 @@
       align-self:center;
       margin-top:0;
     }
+    & > img[src*="epson-bonprinter-scherp"]{
+      margin-block:0;
+    }
     & > .bundle-display{
       position:relative;
       container-type:inline-size;
