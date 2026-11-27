@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit a0d946fe1874353ffdfc7052e1e71de2b2b93622.
+Broncommit 5a50e0a881b7d06ea22ed515bcbc94d5a7b8eddc.
 
-Kassafoto in de kaart voor eenmalige aankoop op de Prijzen-pagina in drie talen.
+Vet prijslabel voor eenmalige aankoop in de shop in drie talen.
