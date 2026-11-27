@@ -106,5 +106,5 @@ dynamic_sources=' '.join((DIST/p).read_text() for p in ['shop/shop.js','shop/cat
 client_translations={lang:{k:v for k,v in words.items() if k in dynamic_sources or len(k)<45} for lang,words in TRANSLATIONS.items()}
 runtime=(ROOT/'scripts/i18n-runtime.template.js').read_text().replace('__TRANSLATIONS__',json.dumps(client_translations,ensure_ascii=False,separators=(',',':'))).replace('__ROUTES__',json.dumps(PAGES,separators=(',',':')))
 (DIST/'i18n-runtime.js').write_text(runtime)
-(DIST/'language-pilot.js').write_text("import '/i18n-runtime.js';\nexport const language=document.documentElement.lang.split('-')[0];\nexport const t=value=>window.KassaKompasI18n.t(value);\nexport const localizedMoney=(cents,fallback)=>window.KassaKompasI18n.money(cents,fallback);\nexport const localizedUrl=value=>window.KassaKompasI18n.url(value);\n")
+(DIST/'language-pilot.js').write_text("import '/i18n-runtime.js';\nimport \'/site-header.js\';\nexport const language=document.documentElement.lang.split('-')[0];\nexport const t=value=>window.KassaKompasI18n.t(value);\nexport const localizedMoney=(cents,fallback)=>window.KassaKompasI18n.money(cents,fallback);\nexport const localizedUrl=value=>window.KassaKompasI18n.url(value);\n")
 print('Unmapped strings for review:',json.dumps(sorted(missing),ensure_ascii=False))
