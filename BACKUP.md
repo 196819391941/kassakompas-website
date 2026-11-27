@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 2f30efa36faf78bafcc66d47c8ade19ace931298.
+Broncommit 866ac1d6d6042b733ff995758239f92e229dffba.
 
-Grotere HAPOS-foto in de kaart voor eenmalige aankoop in drie talen.
+Horecavideo in origineel 1080 × 1440 met aangepaste weergave in drie talen.
