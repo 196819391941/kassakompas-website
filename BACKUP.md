@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 0f142df953965ece3aa2ac52efce2e2263de8f14.
+Broncommit e7bc3965908a0cf863754a1811b214d894d00c57.
 
-Horecavideo zonder broodscène, met pixelidentieke overgebleven frames.
+Horecavideo zonder broodframes, resolutie 1080 × 1440.
