@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 11a44c311ff6a41f627560c8f55975d54d288f75.
+Broncommit 2f30efa36faf78bafcc66d47c8ade19ace931298.
 
-Helderblauwe aankooplabels in de shop in drie talen.
+Grotere HAPOS-foto in de kaart voor eenmalige aankoop in drie talen.
