@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 866ac1d6d6042b733ff995758239f92e229dffba.
+Broncommit 0f142df953965ece3aa2ac52efce2e2263de8f14.
 
-Horecavideo in origineel 1080 × 1440 met aangepaste weergave in drie talen.
+Horecavideo zonder broodscène, met pixelidentieke overgebleven frames.
