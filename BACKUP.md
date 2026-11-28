@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 5c5dbacfce3fc310198599c489032268fac45717.
+Broncommit efcf16b24093a4e26e71d88615b84db3e8aada5f.
 
-Eenmalige kosten in de Shop aangeduid in vet en felblauw in drie talen.
+Felblauwe nadruk in de Shop beperkt tot en met de Premium kassabundel.

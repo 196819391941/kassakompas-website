@@ -77,30 +77,23 @@ function initRegisterScreens(scope=document){
 }
 initRegisterScreens();
 
-// Highlight one-off costs in the catalogue, product details and live order totals.
+// Highlight one-off costs in the first catalogue cards, through the premium bundle.
 const oneOffPatterns={
  nl:/(?:\been|één)malige?(?: aankoop)?\b/giu,
  fr:/\b(?:paiements? uniques?|achats? uniques?|prix uniques?|frais uniques?|montants? uniques?)\b/giu,
  en:/\bone[-‑ ]off(?: purchase)?\b/giu,
 };
-const shopContent=document.querySelector('main');
 const oneOffPattern=oneOffPatterns[document.documentElement.lang.split('-')[0]]||oneOffPatterns.nl;
 const excludedOneOffElements='script,style,svg,select,option,textarea,[contenteditable],.shop-one-off';
-function highlightOneOffCosts(root){
- if(root.nodeType===Node.TEXT_NODE&&!root.parentElement)return;
- const element=root.nodeType===Node.TEXT_NODE?root.parentElement:root;
- if(!element.closest||element.closest(excludedOneOffElements))return;
+function highlightOneOffCosts(card){
+ const walker=document.createTreeWalker(card,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{
+  acceptNode(node){
+   if(node.nodeType===Node.TEXT_NODE)return NodeFilter.FILTER_ACCEPT;
+   return node.matches(excludedOneOffElements)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_SKIP;
+  },
+ });
  const nodes=[];
- if(root.nodeType===Node.TEXT_NODE)nodes.push(root);
- else{
-  const walker=document.createTreeWalker(root,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{
-   acceptNode(node){
-    if(node.nodeType===Node.TEXT_NODE)return NodeFilter.FILTER_ACCEPT;
-    return node.matches(excludedOneOffElements)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_SKIP;
-   },
-  });
-  while(walker.nextNode())nodes.push(walker.currentNode);
- }
+ while(walker.nextNode())nodes.push(walker.currentNode);
  for(const node of nodes){
   const matches=[...node.data.matchAll(oneOffPattern)];
   if(!matches.length)continue;
@@ -121,12 +114,6 @@ function highlightOneOffCosts(root){
   node.replaceWith(fragment);
  }
 }
-if(shopContent){
- highlightOneOffCosts(shopContent);
- new MutationObserver(records=>{
-  for(const record of records){
-   const nodes=record.type==='characterData'?[record.target]:record.addedNodes;
-   for(const node of nodes)if(shopContent.contains(node))highlightOneOffCosts(node);
-  }
- }).observe(shopContent,{subtree:true,childList:true,characterData:true});
-}
+const productCards=[...document.querySelectorAll('.product-grid > .product-card')];
+const premiumIndex=productCards.findIndex(card=>card.dataset.name==='premium kassabundel');
+productCards.slice(0,premiumIndex+1).forEach(highlightOneOffCosts);
