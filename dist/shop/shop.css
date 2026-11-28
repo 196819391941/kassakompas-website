@@ -257,8 +257,7 @@
 }
 
 .hero-price > small > b,
-.featured-price > span > b,
-.shop-one-off{
+.featured-price > span > b{
   color:#005bd7;
   font-weight:700;
 }
