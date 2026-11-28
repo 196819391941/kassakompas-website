@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit 5c66e5c420beee65d28e3064f2084459fd102461.
+Broncommit 931aa4270fc2ed69fd1be8d02ee054fbf5716fe1.
 
-Open, felblauwe sterren op de prijsbalken in de Shop.
+Horecavideo met groter videoblok op smalle schermen en openingsbeeld op volledige resolutie.
