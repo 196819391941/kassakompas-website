@@ -1,5 +1,5 @@
 # KassaKompas testsiteback-up
 
-Broncommit a31ba62d680812bc683eab1d9b5f6753d21d8ed4.
+Broncommit 5c66e5c420beee65d28e3064f2084459fd102461.
 
-Felblauwe nadruk beperkt tot de Complete HAPOS-kassa.
+Open, felblauwe sterren op de prijsbalken in de Shop.
